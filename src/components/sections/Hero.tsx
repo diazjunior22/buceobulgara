@@ -86,7 +86,7 @@ export default function Hero() {
       </motion.div>
 
       {/* Content */}
-      <div className="container relative z-10 mx-auto px-4 md:px-6 pt-20 pb-28 md:pb-32">
+      <div className="container relative z-30 mx-auto px-4 md:px-6 pt-20 pb-36 md:pb-44">
         <motion.div
           variants={staggerContainer}
           initial="hidden"
@@ -119,7 +119,7 @@ export default function Hero() {
       </div>
 
       {/* Stats */}
-      <div className="absolute bottom-0 left-0 right-0 z-20 bg-gradient-to-t from-bg-white to-transparent pt-16 pb-6">
+      <div className="absolute bottom-0 left-0 right-0 z-20 bg-gradient-to-t from-bg-white/80 to-transparent pt-8 pb-6">
         <div className="container mx-auto px-4 md:px-6">
           <motion.div
             initial={{ opacity: 0, y: 50, scale: 0.95 }}

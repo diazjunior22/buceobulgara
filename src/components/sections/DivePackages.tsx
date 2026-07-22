@@ -127,10 +127,10 @@ export default function DivePackages() {
             transition={{ delay: 0.2 }}
             className="text-text-muted text-lg"
           >
-            Explora el Mar Rojo como nunca antes con nuestras incre\u00edbles experiencias de buceo
-            y actividades acu\u00e1ticas en Hurghada. Elige la aventura que mejor se adapte a tu
-            nivel y prep\u00e1rate para descubrir impresionantes paisajes submarinos, fascinantes
-            naufragios, coloridos arrecifes de coral y una espectacular vida marina.
+            Explora el Mar Rojo como nunca antes con nuestras experiencias de buceo en
+            Hurghada. Desde bautismos para principiantes hasta inmersiones en arrecifes
+            y naufragios para certificados, cada aventura est\u00e1 dise\u00f1ada para mostrarte
+            lo mejor del mundo submarino.
           </motion.p>
         </div>
 
