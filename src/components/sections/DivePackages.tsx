@@ -29,7 +29,7 @@ const packages: DivePackage[] = [
       "Disfruta de un paseo en barco con opci\u00f3n de hacer snorkel. La experiencia incluye almuerzo, transporte, actividad de snorkel y equipo.",
     includes: ["Almuerzo", "Transporte", "Snorkel", "Equipo de snorkel"],
     note: "Dependiendo de las condiciones clim\u00e1ticas, tambi\u00e9n puedes a\u00f1adir una experiencia de bautismo de buceo. Esta actividad no est\u00e1 incluida en el precio.",
-    image: "/dive-packages/experiencias-superficie.png",
+    image: "/dive-packages/experiencias-superficie-v2.png",
     icon: Ship,
     color: "from-blue-600 to-cyan-500",
     waMessage:
@@ -44,7 +44,7 @@ const packages: DivePackage[] = [
     requirement: "Solo para buceadores certificados (OWD).",
     includes: ["Transporte", "Almuerzo", "Gu\u00eda de buceo"],
     note: "El alquiler del equipo completo de buceo est\u00e1 disponible por un suplemento de 15\u20ac.",
-    image: "/dive-packages/arrecifes-poco-profundos.png",
+    image: "/dive-packages/arrecifes-poco-profundos-v2.png",
     icon: Fish,
     color: "from-cyan-500 to-sky-400",
     waMessage:
@@ -58,7 +58,7 @@ const packages: DivePackage[] = [
       "Convi\u00e9rtete en un explorador submarino y sum\u00e9rgete en las profundidades para descubrir misteriosos naufragios y capturar incre\u00edbles fotograf\u00edas bajo el agua.",
     requirement: "Solo para buceadores certificados (AOWD).",
     includes: ["Gu\u00eda de buceo personal", "Transporte", "Equipo de buceo"],
-    image: "/dive-packages/naufragios-profundo.png",
+    image: "/dive-packages/naufragios-profundo-v2.png",
     icon: Anchor,
     color: "from-teal-400 to-emerald-400",
     waMessage:
@@ -72,7 +72,7 @@ const packages: DivePackage[] = [
       "Vive una experiencia \u00fanica explorando el mundo submarino durante la noche y descubre todo aquello que permanece oculto durante el d\u00eda.",
     requirement: "Solo para buceadores certificados (OWD).",
     includes: ["Transporte", "Gu\u00eda de buceo personal", "Equipo de buceo"],
-    image: "/dive-packages/buceo-nocturno.png",
+    image: "/dive-packages/buceo-nocturno-v2.png",
     icon: Moon,
     color: "from-blue-500 to-indigo-500",
     waMessage:

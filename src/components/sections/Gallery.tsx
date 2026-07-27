@@ -6,21 +6,26 @@ import { X, ChevronLeft, ChevronRight, Image as ImageIcon } from "lucide-react";
 import Image from "next/image";
 
 const images = [
-  { src: "/gallery/GP010885_1_37.jpg", alt: "Arrecife de coral", span: "square" },
-  { src: "/gallery/GP011102_1_37.jpg", alt: "Exploración submarina", span: "square" },
-  { src: "/gallery/GP011419_1_37.jpg", alt: "Fondo marino profundo", span: "tall" },
-  { src: "/gallery/GP011423_27.jpg", alt: "Vida marina", span: "square" },
-  { src: "/gallery/GP011474_27.jpg", alt: "Banco de peces", span: "wide" },
-  { src: "/gallery/GP011625_27.jpg", alt: "Buceo en el arrecife", span: "square" },
-  { src: "/gallery/GP011663_30.jpg", alt: "Luz submarina", span: "square" },
-  { src: "/gallery/GP011666_30.jpg", alt: "Coral blando", span: "tall" },
-  { src: "/gallery/GP011856_30.jpg", alt: "Inmersión profunda", span: "square" },
-  { src: "/gallery/GP011857_50.jpg", alt: "Atardecer en Hurghada", span: "wide" },
-  { src: "/gallery/GP011889_50.jpg", alt: "Buceador y tortuga", span: "square" },
-  { src: "/gallery/GP011890_50.jpg", alt: "Paisaje marino", span: "square" },
-  { src: "/gallery/GP011902_1_optimized_250.jpg", alt: "Equipo de buceo", span: "square" },
-  { src: "/gallery/GP011913_1_optimized_250.jpg", alt: "Preparando la inmersión", span: "square" },
-  { src: "/gallery/GP011915_1_optimized_250.jpg", alt: "Aventura submarina", span: "wide" },
+  { src: "/gallery/01-bautismo-de-buceo.jpg", name: "Bautismo de Buceo", span: "square" },
+  { src: "/gallery/02-buceo-diario.jpg", name: "Buceo Diario", span: "square" },
+  { src: "/gallery/03-dia-de-snorkel.jpg", name: "Día de Snorkel", span: "square" },
+  { src: "/gallery/04-cursos-padi.jpg", name: "Cursos Padi", span: "square" },
+  { src: "/gallery/05-curso-ssi.jpg", name: "Curso SSI", span: "tall" },
+  { src: "/gallery/06-experiencias-superficie.jpg", name: "Experiencias en la Superficie", span: "wide" },
+  { src: "/gallery/07-arrecifes-poco-profundos.jpg", name: "Arrecifes Poco Profundos", span: "square" },
+  { src: "/gallery/08-naufragios-profundos.jpg", name: "Naufragios de Aguas Profundas", span: "square" },
+  { src: "/gallery/09-buceo-nocturno.jpg", name: "Buceo Nocturno", span: "square" },
+  { src: "/gallery/10-cliente-1.jpg", name: "Cliente 1", span: "square" },
+  { src: "/gallery/11-cliente-4.jpg", name: "Cliente 4", span: "square" },
+  { src: "/gallery/12-cliente.jpg", name: "Cliente", span: "square" },
+  { src: "/gallery/13-cliente3.jpg", name: "Cliente 3", span: "wide" },
+  { src: "/gallery/14-cliente5.jpg", name: "Cliente 5", span: "square" },
+  { src: "/gallery/15-cliente6.jpg", name: "Cliente 6", span: "square" },
+  { src: "/gallery/16-clientes7.jpg", name: "Clientes 7", span: "tall" },
+  { src: "/gallery/17-delfines.jpg", name: "Delfines", span: "square" },
+  { src: "/gallery/18-nosotros-patri-maged.jpg", name: "Nosotros (Patri y Maged)", span: "wide" },
+  { src: "/gallery/19-pez-globo-estrellado.jpg", name: "Pez Globo Estrellado", span: "square" },
+  { src: "/gallery/20-tortuga-carey.jpg", name: "Tortuga Carey", span: "square" },
 ];
 
 export default function Gallery() {
@@ -124,7 +129,7 @@ export default function Gallery() {
               >
                 <Image
                   src={image.src}
-                  alt={image.alt}
+                  alt={image.name}
                   fill
                   sizes="(max-width: 768px) 100vw, 25vw"
                   className="object-cover transition-all duration-700 ease-[cubic-bezier(0.23,1,0.32,1)] group-hover:scale-105"
@@ -133,7 +138,7 @@ export default function Gallery() {
                 <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-400 ease-[cubic-bezier(0.23,1,0.32,1)]" />
                 <div className="absolute inset-0 bg-black/0 group-hover:bg-black/10 transition-colors duration-400" />
                 <div className="absolute bottom-0 left-0 right-0 p-4 translate-y-2 group-hover:translate-y-0 opacity-0 group-hover:opacity-100 transition-all duration-400 ease-[cubic-bezier(0.23,1,0.32,1)]">
-                  <span className="text-white text-sm font-medium drop-shadow-sm">{image.alt}</span>
+                  <span className="text-white text-sm font-medium drop-shadow-sm">{image.name}</span>
                 </div>
                 <div className="absolute top-3 right-3 w-8 h-8 rounded-full bg-white/10 backdrop-blur-sm flex items-center justify-center opacity-0 group-hover:opacity-100 transition-all duration-300 ease-[cubic-bezier(0.23,1,0.32,1)]">
                   <ImageIcon size={14} className="text-white" />
@@ -192,7 +197,7 @@ export default function Gallery() {
             >
               <Image
                 src={current.src}
-                alt={current.alt}
+                alt={current.name}
                 width={1920}
                 height={1080}
                 className="w-full h-full object-contain max-h-[85vh]"
@@ -200,7 +205,7 @@ export default function Gallery() {
                 priority
               />
               <div className="absolute bottom-0 left-0 right-0 p-5 bg-gradient-to-t from-black/60 to-transparent">
-                <p className="text-white/90 text-sm font-medium">{current.alt}</p>
+                <p className="text-white/90 text-sm font-medium">{current.name}</p>
               </div>
             </motion.div>
           </motion.div>

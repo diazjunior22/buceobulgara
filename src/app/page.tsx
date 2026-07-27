@@ -39,8 +39,8 @@ export default function Home() {
         <WhyChooseUs />
         <Timeline />
         <Courses />
-        <Videos />
         <Gallery />
+        <Videos />
         <Testimonials />
         <FAQ />
         <Contact />
