@@ -1,0 +1,664 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link [ref=e4] [cursor=pointer]:
+        - /url: /
+        - img "Buceo Hurgada" [ref=e5]
+      - navigation [ref=e6]:
+        - list [ref=e7]:
+          - listitem [ref=e8]:
+            - link "Inicio" [ref=e9] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=e10]:
+            - link "Experiencias" [ref=e11] [cursor=pointer]:
+              - /url: "#experiencias"
+          - listitem [ref=e12]:
+            - link "Cursos" [ref=e13] [cursor=pointer]:
+              - /url: "#cursos"
+          - listitem [ref=e14]:
+            - link "Galería" [ref=e15] [cursor=pointer]:
+              - /url: "#galeria"
+          - listitem [ref=e16]:
+            - link "Nosotros" [ref=e17] [cursor=pointer]:
+              - /url: "#nosotros"
+          - listitem [ref=e18]:
+            - link "FAQ" [ref=e19] [cursor=pointer]:
+              - /url: "#faq"
+          - listitem [ref=e20]:
+            - link "Contacto" [ref=e21] [cursor=pointer]:
+              - /url: "#contacto"
+        - link "Reservar Ahora" [ref=e22] [cursor=pointer]:
+          - /url: "#contacto"
+  - main [ref=e23]:
+    - generic [ref=e24]:
+      - generic [ref=e30]:
+        - heading "Explora el Mar Rojo como nunca imaginaste" [level=1] [ref=e31]
+        - paragraph [ref=e32]: Explora las maravillas del Mar Rojo con nuestro centro de buceo en Hurghada, Egipto. Disfruta de bautismos de buceo, cursos PADI y SSI, excursiones diarias y experiencias inolvidables para todos los niveles.
+        - generic [ref=e33]:
+          - link "Reservar experiencia" [ref=e34] [cursor=pointer]:
+            - /url: "#contacto"
+          - link "Ver actividades" [ref=e37] [cursor=pointer]:
+            - /url: "#experiencias"
+      - generic [ref=e42]:
+        - generic [ref=e43]:
+          - generic [ref=e44]: "+0"
+          - generic [ref=e45]: Clientes felices
+        - generic [ref=e46]:
+          - generic [ref=e47]: 0+
+          - generic [ref=e48]: Puntos inmersión
+        - generic [ref=e49]:
+          - generic [ref=e50]: 0%
+          - generic [ref=e51]: Seguridad
+        - generic [ref=e52]:
+          - generic [ref=e53]: 5★
+          - generic [ref=e54]: Valoración
+    - generic [ref=e57]:
+      - generic [ref=e58]:
+        - img "Buceo Hurgada" [ref=e60]
+        - generic [ref=e62]:
+          - generic [ref=e63]: "+10"
+          - generic [ref=e65]:
+            - generic [ref=e66]: Años de
+            - generic [ref=e67]: Experiencia
+      - generic [ref=e68]:
+        - generic [ref=e69]: Sobre Nosotros
+        - heading "Buceo en español en el corazón del Mar Rojo" [level=2] [ref=e70]
+        - paragraph [ref=e71]: Nuestra pasión es compartir la magia del mundo submarino. Ofrecemos experiencias personalizadas, atención cálida en español e inglés, equipos certificados de la más alta calidad y muchos años de experiencia explorando los mejores y más vibrantes arrecifes de Hurghada.
+        - list [ref=e72]:
+          - listitem [ref=e73]:
+            - generic [ref=e78]: Experiencias personalizadas
+          - listitem [ref=e79]:
+            - generic [ref=e84]: Atención en español e inglés
+          - listitem [ref=e85]:
+            - generic [ref=e90]: Equipos certificados de alta calidad
+          - listitem [ref=e91]:
+            - generic [ref=e96]: Años de experiencia en Hurghada
+        - link "Conócenos mejor" [ref=e98] [cursor=pointer]:
+          - /url: "#contacto"
+    - generic [ref=e100]:
+      - generic [ref=e101]:
+        - generic [ref=e102]: Nuestras Experiencias
+        - heading "Aventuras Submarinas" [level=2] [ref=e103]
+        - paragraph [ref=e104]: Descubre todo lo que el Mar Rojo tiene para ofrecer. Desde tus primeros respiros bajo el agua hasta certificaciones avanzadas.
+      - generic [ref=e105]:
+        - generic [ref=e106]:
+          - img "Bautismo de Buceo" [ref=e108]
+          - generic [ref=e114]:
+            - heading "Bautismo de Buceo" [level=3] [ref=e115]
+            - paragraph [ref=e116]: Tu primera experiencia bajo el agua. Ideal para quienes desean descubrir el buceo de forma segura y divertida.
+            - link "Ver más detalles" [ref=e118] [cursor=pointer]:
+              - /url: "#contacto"
+        - generic [ref=e121]:
+          - img "Buceo Diario" [ref=e123]
+          - generic [ref=e128]:
+            - heading "Buceo Diario" [level=3] [ref=e129]
+            - paragraph [ref=e130]: Explora los mejores arrecifes del Mar Rojo acompañado de instructores certificados.
+            - link "Ver más detalles" [ref=e132] [cursor=pointer]:
+              - /url: "#contacto"
+        - generic [ref=e135]:
+          - img "Día de Snorkel" [ref=e137]
+          - generic [ref=e146]:
+            - heading "Día de Snorkel" [level=3] [ref=e147]
+            - paragraph [ref=e148]: Una aventura perfecta para toda la familia disfrutando de aguas cristalinas y una impresionante vida marina.
+            - link "Ver más detalles" [ref=e150] [cursor=pointer]:
+              - /url: "#contacto"
+        - generic [ref=e153]:
+          - img "Cursos PADI" [ref=e155]
+          - generic [ref=e161]:
+            - heading "Cursos PADI" [level=3] [ref=e162]
+            - paragraph [ref=e163]: Certificaciones internacionales desde Open Water hasta niveles avanzados.
+            - link "Ver más detalles" [ref=e165] [cursor=pointer]:
+              - /url: "#contacto"
+        - generic [ref=e168]:
+          - img "Cursos SSI" [ref=e170]
+          - generic [ref=e176]:
+            - heading "Cursos SSI" [level=3] [ref=e177]
+            - paragraph [ref=e178]: Formación profesional con certificación internacional adaptada a cada nivel.
+            - link "Ver más detalles" [ref=e180] [cursor=pointer]:
+              - /url: "#contacto"
+    - generic [ref=e184]:
+      - generic [ref=e185]:
+        - generic [ref=e186]: DIVE PACKAGES
+        - heading "Descubre nuestras experiencias de buceo" [level=2] [ref=e187]
+        - paragraph [ref=e188]: Explora el Mar Rojo como nunca antes con nuestras experiencias de buceo en Hurghada. Desde bautismos para principiantes hasta inmersiones en arrecifes y naufragios para certificados, cada aventura está diseñada para mostrarte lo mejor del mundo submarino.
+      - generic [ref=e189]:
+        - generic [ref=e190]:
+          - generic [ref=e191]:
+            - img "Experiencias en la Superficie" [ref=e192]
+            - generic [ref=e199]: Experiencias
+          - generic [ref=e200]:
+            - generic [ref=e201]:
+              - heading "Experiencias en la Superficie" [level=3] [ref=e202]
+              - text: 30 € / persona
+            - paragraph [ref=e203]: Disfruta de un paseo en barco con opción de hacer snorkel. La experiencia incluye almuerzo, transporte, actividad de snorkel y equipo.
+            - generic [ref=e204]:
+              - paragraph [ref=e205]: Incluye
+              - list [ref=e206]:
+                - listitem [ref=e207]:
+                  - generic [ref=e211]: Almuerzo
+                - listitem [ref=e212]:
+                  - generic [ref=e216]: Transporte
+                - listitem [ref=e217]:
+                  - generic [ref=e221]: Snorkel
+                - listitem [ref=e222]:
+                  - generic [ref=e226]: Equipo de snorkel
+            - paragraph [ref=e227]: Dependiendo de las condiciones climáticas, también puedes añadir una experiencia de bautismo de buceo. Esta actividad no está incluida en el precio.
+            - link "Reservar ahora" [ref=e229] [cursor=pointer]:
+              - /url: https://wa.me/201507083062?text=Hola%2C%20estoy%20interesado%20en%20reservar%20el%20paquete%20Experiencias%20en%20la%20Superficie%20por%2030%E2%82%AC%20por%20persona.%20Me%20gustar%C3%ADa%20saber%20la%20disponibilidad.
+        - generic [ref=e232]:
+          - generic [ref=e233]:
+            - img "Buceo en Arrecifes Poco Profundos" [ref=e234]
+            - generic [ref=e243]: Buceo
+          - generic [ref=e244]:
+            - generic [ref=e245]:
+              - heading "Buceo en Arrecifes Poco Profundos" [level=3] [ref=e246]
+              - text: 60 € / persona
+            - paragraph [ref=e247]: Adéntrate en las aguas azules del Mar Rojo y descubre la increíble vida marina de Hurghada.
+            - generic [ref=e248]: Solo para buceadores certificados (OWD).
+            - generic [ref=e253]:
+              - paragraph [ref=e254]: Incluye
+              - list [ref=e255]:
+                - listitem [ref=e256]:
+                  - generic [ref=e260]: Transporte
+                - listitem [ref=e261]:
+                  - generic [ref=e265]: Almuerzo
+                - listitem [ref=e266]:
+                  - generic [ref=e270]: Guía de buceo
+                - listitem [ref=e271]:
+                  - generic [ref=e275]: Equipo de buceo
+                - listitem [ref=e276]:
+                  - generic [ref=e280]: 2 inmersiones
+            - link "Reservar ahora" [ref=e282] [cursor=pointer]:
+              - /url: https://wa.me/201507083062?text=Hola%2C%20estoy%20interesado%20en%20reservar%20el%20paquete%20Buceo%20en%20Arrecifes%20Poco%20Profundos%20por%2060%E2%82%AC%20por%20persona.%20Me%20gustar%C3%ADa%20saber%20la%20disponibilidad.
+        - generic [ref=e285]:
+          - generic [ref=e286]:
+            - img "Buceo en Naufragios de Aguas Profundas" [ref=e287]
+            - generic [ref=e293]: Naufragios
+          - generic [ref=e294]:
+            - generic [ref=e295]:
+              - heading "Buceo en Naufragios de Aguas Profundas" [level=3] [ref=e296]
+              - text: 80 € / persona
+            - paragraph [ref=e297]: Conviértete en un explorador submarino y sumérgete en las profundidades para descubrir misteriosos naufragios y capturar increíbles fotografías bajo el agua.
+            - generic [ref=e298]: Solo para buceadores certificados (ADVANCE).
+            - generic [ref=e303]:
+              - paragraph [ref=e304]: Incluye
+              - list [ref=e305]:
+                - listitem [ref=e306]:
+                  - generic [ref=e310]: Guía de buceo personal
+                - listitem [ref=e311]:
+                  - generic [ref=e315]: Transporte
+                - listitem [ref=e316]:
+                  - generic [ref=e320]: Equipo de buceo
+                - listitem [ref=e321]:
+                  - generic [ref=e325]: 1 inmersión en pecio
+                - listitem [ref=e326]:
+                  - generic [ref=e330]: 2 inmersiones normales
+                - listitem [ref=e331]:
+                  - generic [ref=e335]: Almuerzo
+            - link "Reservar ahora" [ref=e337] [cursor=pointer]:
+              - /url: https://wa.me/201507083062?text=Hola%2C%20estoy%20interesado%20en%20reservar%20el%20paquete%20Buceo%20en%20Naufragios%20de%20Aguas%20Profundas%20por%2080%E2%82%AC%20por%20persona.%20Me%20gustar%C3%ADa%20saber%20la%20disponibilidad.
+        - generic [ref=e340]:
+          - generic [ref=e341]:
+            - img "Buceo Nocturno" [ref=e342]
+            - generic [ref=e347]: Buceo Nocturno
+          - generic [ref=e348]:
+            - generic [ref=e349]:
+              - heading "Buceo Nocturno" [level=3] [ref=e350]
+              - text: 80 € / persona
+            - paragraph [ref=e351]: Vive una experiencia única explorando el mundo submarino durante la noche y descubre todo aquello que permanece oculto durante el día.
+            - generic [ref=e352]: Solo para buceadores certificados (ADVANCE).
+            - generic [ref=e357]:
+              - paragraph [ref=e358]: Incluye
+              - list [ref=e359]:
+                - listitem [ref=e360]:
+                  - generic [ref=e364]: Transporte
+                - listitem [ref=e365]:
+                  - generic [ref=e369]: Guía de buceo personal
+                - listitem [ref=e370]:
+                  - generic [ref=e374]: Equipo de buceo
+            - link "Reservar ahora" [ref=e376] [cursor=pointer]:
+              - /url: https://wa.me/201507083062?text=Hola%2C%20estoy%20interesado%20en%20reservar%20el%20paquete%20Buceo%20Nocturno%20por%2080%E2%82%AC%20por%20persona.%20Me%20gustar%C3%ADa%20saber%20la%20disponibilidad.
+    - generic [ref=e381]:
+      - generic [ref=e382]:
+        - generic [ref=e383]: Tu Seguridad es Primero
+        - heading "¿Por qué elegir Buceo Hurgada?" [level=2] [ref=e384]
+        - paragraph [ref=e385]: No somos un centro de buceo más. Somos tu familia en el Mar Rojo. Nos aseguramos de que cada detalle esté cuidado para que tú solo te preocupes de disfrutar.
+        - link "Hablemos" [ref=e386] [cursor=pointer]:
+          - /url: "#contacto"
+      - generic [ref=e387]:
+        - heading "Instructores certificados" [level=3] [ref=e393]
+        - heading "Atención en español e inglés" [level=3] [ref=e398]
+        - heading "Grupos reducidos" [level=3] [ref=e406]
+        - heading "Equipos revisados y seguros" [level=3] [ref=e412]
+        - heading "Mejores inmersiones de Hurghada" [level=3] [ref=e417]
+        - heading "Asesoramiento durante tu estancia" [level=3] [ref=e422]
+    - generic [ref=e424]:
+      - generic [ref=e425]:
+        - heading "Tu experiencia paso a paso" [level=2] [ref=e426]
+        - paragraph [ref=e427]: Hacemos que todo el proceso sea simple y sin estrés para que te concentres en disfrutar.
+      - generic [ref=e430]:
+        - generic [ref=e431]:
+          - generic [ref=e432]: "1"
+          - heading "Paso 1" [level=3] [ref=e436]
+          - paragraph [ref=e437]: Reserva fácilmente tu experiencia por WhatsApp o formulario.
+        - generic [ref=e438]:
+          - generic [ref=e439]: "2"
+          - heading "Paso 2" [level=3] [ref=e444]
+          - paragraph [ref=e445]: Confirmamos tu reserva y adaptamos todo a tu nivel.
+        - generic [ref=e446]:
+          - generic [ref=e447]: "3"
+          - heading "Paso 3" [level=3] [ref=e453]
+          - paragraph [ref=e454]: Te recogemos en tu hotel o punto de encuentro acordado.
+        - generic [ref=e455]:
+          - generic [ref=e456]: "4"
+          - heading "Paso 4" [level=3] [ref=e462]
+          - paragraph [ref=e463]: Disfrutas del Mar Rojo de la mano de expertos.
+        - generic [ref=e464]:
+          - generic [ref=e465]: "5"
+          - heading "Paso 5" [level=3] [ref=e470]
+          - paragraph [ref=e471]: Vuelves con recuerdos inolvidables y una sonrisa.
+    - generic [ref=e473]:
+      - generic [ref=e474]:
+        - generic [ref=e475]: Formación Continua
+        - heading "Cursos de Buceo" [level=2] [ref=e476]
+        - paragraph [ref=e477]: Mejora tus habilidades y alcanza nuevos niveles con nuestros instructores certificados.
+      - generic [ref=e478]:
+        - button "Todos" [ref=e479]
+        - button "Principiantes" [ref=e480]
+        - button "Avanzado" [ref=e481]
+        - button "Profesionales" [ref=e482]
+      - generic [ref=e483]:
+        - generic [ref=e484]:
+          - generic [ref=e485]: Más Popular
+          - generic [ref=e486]:
+            - heading "PADI® Open Water Course" [level=3] [ref=e487]
+            - generic [ref=e488]: Principiantes
+          - paragraph [ref=e493]: PADI® Open Water Diver abre la puerta al increíble mundo submarino. Aprende las habilidades fundamentales para convertirte en un buceador certificado y comienza a explorar el fascinante mundo submarino.
+          - generic [ref=e494]:
+            - generic [ref=e495]: Desde 330 €
+            - link "Más información" [ref=e499] [cursor=pointer]:
+              - /url: "#contacto"
+        - generic [ref=e502]:
+          - generic [ref=e503]:
+            - heading "Scuba Diving Introduction" [level=3] [ref=e504]
+            - generic [ref=e505]: Principiantes
+          - paragraph [ref=e510]: ¿Te interesa el buceo pero no sabes exactamente qué esperar del mundo submarino? El curso de introducción es perfecto para descubrir la sensación única de respirar bajo el agua y vivir tu primera experiencia de buceo.
+          - generic [ref=e511]:
+            - generic [ref=e512]: Desde 60 €
+            - link "Más información" [ref=e516] [cursor=pointer]:
+              - /url: "#contacto"
+        - generic [ref=e519]:
+          - generic [ref=e520]:
+            - heading "PADI® AWARE Specialty" [level=3] [ref=e521]
+            - generic [ref=e522]:
+              - generic [ref=e523]: Principiantes
+              - generic [ref=e526]: Avanzado
+          - paragraph [ref=e530]: Aprende cómo contribuir a la protección de los océanos mientras desarrollas conocimientos y habilidades para generar un impacto positivo en el medio marino.
+          - generic [ref=e531]:
+            - generic [ref=e532]: Desde 110 €
+            - link "Más información" [ref=e536] [cursor=pointer]:
+              - /url: "#contacto"
+        - generic [ref=e539]:
+          - generic [ref=e540]:
+            - heading "Emergency First Response Primary and Secondary Care" [level=3] [ref=e541]
+            - generic [ref=e542]:
+              - generic [ref=e543]: Principiantes
+              - generic [ref=e546]: Avanzado
+          - paragraph [ref=e550]: Aprende cómo actuar en momentos críticos antes de que llegue la asistencia médica profesional, desarrollando habilidades de atención primaria y secundaria ante emergencias.
+          - generic [ref=e551]:
+            - generic [ref=e552]: Desde 125 €
+            - link "Más información" [ref=e556] [cursor=pointer]:
+              - /url: "#contacto"
+        - generic [ref=e559]:
+          - generic [ref=e560]:
+            - heading "Emergency First Response® – Care for Children" [level=3] [ref=e561]
+            - generic [ref=e562]:
+              - generic [ref=e563]: Principiantes
+              - generic [ref=e566]: Avanzado
+          - paragraph [ref=e570]: Desarrolla las habilidades necesarias para identificar y responder ante lesiones y enfermedades comunes en niños, aprendiendo a proporcionar una atención adecuada y segura.
+          - generic [ref=e571]:
+            - generic [ref=e572]: Desde 125 €
+            - link "Más información" [ref=e576] [cursor=pointer]:
+              - /url: "#contacto"
+        - generic [ref=e579]:
+          - generic [ref=e580]:
+            - heading "Peak Performance Buoyancy" [level=3] [ref=e581]
+            - generic [ref=e582]:
+              - generic [ref=e583]: Principiantes
+              - generic [ref=e586]: Avanzado
+          - paragraph [ref=e590]: Mejora tu control de flotabilidad y aprende a moverte bajo el agua con mayor eficiencia. Una excelente habilidad para disfrutar de inmersiones más cómodas, consumir menos aire y mejorar tu experiencia como buceador.
+          - generic [ref=e591]:
+            - generic [ref=e592]: Desde 110 €
+            - link "Más información" [ref=e596] [cursor=pointer]:
+              - /url: "#contacto"
+        - generic [ref=e599]:
+          - generic [ref=e600]:
+            - heading "Sidemount Rec Diver" [level=3] [ref=e601]
+            - generic [ref=e602]:
+              - generic [ref=e603]: Principiantes
+              - generic [ref=e606]: Avanzado
+              - generic [ref=e609]: Profesionales
+          - paragraph [ref=e613]: Descubre el equilibrio y la eficiencia del buceo sidemount con la orientación de un instructor PADI. Una modalidad que ofrece comodidad y una nueva forma de disfrutar tus inmersiones.
+          - generic [ref=e614]:
+            - generic [ref=e615]: Desde 200 €
+            - link "Más información" [ref=e619] [cursor=pointer]:
+              - /url: "#contacto"
+        - generic [ref=e622]:
+          - generic [ref=e623]:
+            - heading "PADI® Advanced Open Water Course" [level=3] [ref=e624]
+            - generic [ref=e625]: Avanzado
+          - paragraph [ref=e630]: Lleva tus habilidades de buceo al siguiente nivel. Practica navegación y flotabilidad, experimenta el buceo profundo y descubre nuevas especialidades para ampliar tu experiencia bajo el agua.
+          - generic [ref=e631]:
+            - generic [ref=e632]: Desde 245 €
+            - link "Más información" [ref=e636] [cursor=pointer]:
+              - /url: "#contacto"
+        - generic [ref=e639]:
+          - generic [ref=e640]:
+            - heading "Enriched Air (Nitrox) Diver" [level=3] [ref=e641]
+            - generic [ref=e642]: Avanzado
+          - paragraph [ref=e647]: Aprende a bucear utilizando aire enriquecido Nitrox y descubre sus ventajas para determinadas inmersiones y planes de buceo, siempre bajo la formación y supervisión correspondiente.
+          - generic [ref=e648]:
+            - generic [ref=e649]: Desde 150 €
+            - link "Más información" [ref=e653] [cursor=pointer]:
+              - /url: "#contacto"
+        - generic [ref=e656]:
+          - generic [ref=e657]:
+            - heading "Deep Diver" [level=3] [ref=e658]
+            - generic [ref=e659]: Avanzado
+          - paragraph [ref=e664]: Explora nuevas profundidades y aprende a planificar inmersiones profundas, gestionar tu suministro de gas y comprender los efectos de la narcosis durante el buceo.
+          - generic [ref=e665]:
+            - generic [ref=e666]: Desde 190 €
+            - link "Más información" [ref=e670] [cursor=pointer]:
+              - /url: "#contacto"
+        - generic [ref=e673]:
+          - generic [ref=e674]:
+            - heading "PADI® Rescue Diver" [level=3] [ref=e675]
+            - generic [ref=e676]:
+              - generic [ref=e677]: Avanzado
+              - generic [ref=e680]: Profesionales
+          - paragraph [ref=e684]: Desarrolla habilidades para identificar y gestionar situaciones de emergencia en el buceo. Mejora tu confianza, capacidad de respuesta y preparación para ayudar a otros buceadores.
+          - generic [ref=e685]:
+            - generic [ref=e686]: Desde 350 €
+            - link "Más información" [ref=e690] [cursor=pointer]:
+              - /url: "#contacto"
+        - generic [ref=e693]:
+          - generic [ref=e694]:
+            - heading "Wreck Diver" [level=3] [ref=e695]
+            - generic [ref=e696]: Avanzado
+          - paragraph [ref=e701]: Descubre el fascinante mundo del buceo en pecios. Explora barcos, aviones y otras estructuras sumergidas que se han convertido en refugios para una increíble variedad de vida marina.
+          - generic [ref=e702]:
+            - generic [ref=e703]: Desde 200 €
+            - link "Más información" [ref=e707] [cursor=pointer]:
+              - /url: "#contacto"
+        - generic [ref=e710]:
+          - generic [ref=e711]:
+            - heading "PADI® Dive Master" [level=3] [ref=e712]
+            - generic [ref=e713]: Profesionales
+          - paragraph [ref=e718]: Convierte tu pasión por el buceo en una profesión. Desarrolla tus habilidades y conocimientos para comenzar tu camino como profesional del buceo y convertirte en PADI Divemaster.
+          - generic [ref=e719]:
+            - generic [ref=e720]: Desde 750 €
+            - link "Más información" [ref=e724] [cursor=pointer]:
+              - /url: "#contacto"
+    - generic [ref=e728]:
+      - generic [ref=e729]:
+        - generic [ref=e730]: Nuestros Momentos
+        - heading "Galería del Mar Rojo" [level=2] [ref=e731]
+        - paragraph [ref=e732]: Explora los fondos marinos más espectaculares de Hurghada a través de nuestras imágenes
+      - generic [ref=e733]:
+        - generic [ref=e734] [cursor=pointer]:
+          - img "Bautismo de Buceo" [ref=e735]
+          - generic [ref=e738]: Bautismo de Buceo
+        - generic [ref=e744] [cursor=pointer]:
+          - img "Buceo Diario" [ref=e745]
+          - generic [ref=e748]: Buceo Diario
+        - generic [ref=e754] [cursor=pointer]:
+          - img "Día de Snorkel" [ref=e755]
+          - generic [ref=e758]: Día de Snorkel
+        - generic [ref=e764] [cursor=pointer]:
+          - img "Cursos Padi" [ref=e765]
+          - generic [ref=e768]: Cursos Padi
+        - generic [ref=e774] [cursor=pointer]:
+          - img "Curso SSI" [ref=e775]
+          - generic [ref=e778]: Curso SSI
+        - generic [ref=e784] [cursor=pointer]:
+          - img "Experiencias en la Superficie" [ref=e785]
+          - generic [ref=e788]: Experiencias en la Superficie
+        - generic [ref=e794] [cursor=pointer]:
+          - img "Arrecifes Poco Profundos" [ref=e795]
+          - generic [ref=e798]: Arrecifes Poco Profundos
+        - generic [ref=e804] [cursor=pointer]:
+          - img "Naufragios de Aguas Profundas" [ref=e805]
+          - generic [ref=e808]: Naufragios de Aguas Profundas
+        - generic [ref=e814] [cursor=pointer]:
+          - img "Buceo Nocturno" [ref=e815]
+          - generic [ref=e818]: Buceo Nocturno
+        - generic [ref=e824] [cursor=pointer]:
+          - img "Cliente 1" [ref=e825]
+          - generic [ref=e828]: Cliente 1
+        - generic [ref=e834] [cursor=pointer]:
+          - img "Cliente 4" [ref=e835]
+          - generic [ref=e838]: Cliente 4
+        - generic [ref=e844] [cursor=pointer]:
+          - img "Cliente" [ref=e845]
+          - generic [ref=e848]: Cliente
+        - generic [ref=e854] [cursor=pointer]:
+          - img "Cliente 3" [ref=e855]
+          - generic [ref=e858]: Cliente 3
+        - generic [ref=e864] [cursor=pointer]:
+          - img "Cliente 5" [ref=e865]
+          - generic [ref=e868]: Cliente 5
+        - generic [ref=e874] [cursor=pointer]:
+          - img "Cliente 6" [ref=e875]
+          - generic [ref=e878]: Cliente 6
+        - generic [ref=e884] [cursor=pointer]:
+          - img "Clientes 7" [ref=e885]
+          - generic [ref=e888]: Clientes 7
+        - generic [ref=e894] [cursor=pointer]:
+          - img "Delfines" [ref=e895]
+          - generic [ref=e898]: Delfines
+        - generic [ref=e904] [cursor=pointer]:
+          - img "Nosotros (Patri y Maged)" [ref=e905]
+          - generic [ref=e908]: Nosotros (Patri y Maged)
+        - generic [ref=e914] [cursor=pointer]:
+          - img "Pez Globo Estrellado" [ref=e915]
+          - generic [ref=e918]: Pez Globo Estrellado
+        - generic [ref=e924] [cursor=pointer]:
+          - img "Tortuga Carey" [ref=e925]
+          - generic [ref=e928]: Tortuga Carey
+    - generic [ref=e936]:
+      - generic [ref=e937]: Multimedia
+      - heading "Experiencias Únicas" [level=2] [ref=e938]
+      - paragraph [ref=e939]: Sumérgete en las maravillas del Mar Rojo a través de nuestros videos
+    - generic [ref=e949]:
+      - generic [ref=e950]:
+        - generic [ref=e951]: Reseñas de Clientes
+        - heading "Lo que dicen nuestros buceadores" [level=2] [ref=e952]
+        - paragraph [ref=e953]: Miles de sonrisas bajo el agua avalan nuestro trabajo. Lee las experiencias de quienes ya descubrieron el Mar Rojo con nosotros.
+        - generic [ref=e954]:
+          - generic [ref=e955]:
+            - img "Carlos M." [ref=e957]
+            - img "Laura G." [ref=e959]
+            - img "David y Elena" [ref=e961]
+            - img "Javier R." [ref=e963]
+          - generic [ref=e964]: 4.9/5 en Google y TripAdvisor
+      - generic [ref=e979]:
+        - generic [ref=e981]:
+          - paragraph [ref=e996]: "\"Hicimos el curso PADI Open Water y la experiencia fue increíble. Instructores súper pacientes y un equipo de primera. ¡Volveremos seguro!\""
+          - generic [ref=e997]:
+            - img "Carlos M." [ref=e999]
+            - generic [ref=e1000]:
+              - heading "Carlos M." [level=4] [ref=e1001]
+              - paragraph [ref=e1002]: España
+        - generic [ref=e1004]:
+          - paragraph [ref=e1019]: "\"El bautismo de buceo superó todas mis expectativas. Ver tortugas y esos arrecifes tan coloridos fue mágico. La seguridad que transmiten es total.\""
+          - generic [ref=e1020]:
+            - img "Laura G." [ref=e1022]
+            - generic [ref=e1023]:
+              - heading "Laura G." [level=4] [ref=e1024]
+              - paragraph [ref=e1025]: Argentina
+        - generic [ref=e1027]:
+          - paragraph [ref=e1042]: "\"Días de snorkel perfectos. Nos llevaron a los mejores puntos lejos de las multitudes. Atención inmejorable en nuestro idioma.\""
+          - generic [ref=e1043]:
+            - img "David y Elena" [ref=e1045]
+            - generic [ref=e1046]:
+              - heading "David y Elena" [level=4] [ref=e1047]
+              - paragraph [ref=e1048]: México
+        - generic [ref=e1050]:
+          - paragraph [ref=e1065]: "\"Organización de 10. Desde la recogida en el hotel hasta el último momento en el barco. El mejor centro de buceo de todo Hurghada.\""
+          - generic [ref=e1066]:
+            - img "Javier R." [ref=e1068]
+            - generic [ref=e1069]:
+              - heading "Javier R." [level=4] [ref=e1070]
+              - paragraph [ref=e1071]: Chile
+    - generic [ref=e1073]:
+      - generic [ref=e1074]:
+        - heading "Preguntas Frecuentes" [level=2] [ref=e1075]
+        - paragraph [ref=e1076]: Resolvemos tus dudas principales para que tu única preocupación sea disfrutar del Mar Rojo.
+      - generic [ref=e1077]:
+        - button "¿Necesito experiencia previa?" [ref=e1079]
+        - button "¿Puedo hacer bautismo sin certificado?" [ref=e1085]
+        - button "¿Qué incluye el precio?" [ref=e1091]
+        - button "¿Qué debo llevar?" [ref=e1097]
+        - button "¿Es seguro?" [ref=e1103]
+        - button "¿Hablan español?" [ref=e1109]
+        - button "¿Hay transporte?" [ref=e1115]
+    - generic [ref=e1120]:
+      - generic [ref=e1121]:
+        - img "Mar Rojo" [ref=e1123]
+        - generic [ref=e1125]:
+          - heading "¿Listo para vivir una aventura inolvidable?" [level=2] [ref=e1126]
+          - generic [ref=e1127]:
+            - link "Reserva tu experiencia" [ref=e1128] [cursor=pointer]:
+              - /url: "#form"
+            - link "Hablar por WhatsApp" [ref=e1129] [cursor=pointer]:
+              - /url: https://wa.me/201507083062
+      - generic [ref=e1134]:
+        - generic [ref=e1135]:
+          - heading "Estamos aquí para ayudarte" [level=2] [ref=e1136]
+          - paragraph [ref=e1137]: Ponte en contacto con nosotros para cualquier duda, reserva o información adicional. Estaremos encantados de atenderte en español.
+          - generic [ref=e1138]:
+            - generic [ref=e1144]:
+              - heading "Ubicación" [level=4] [ref=e1145]
+              - paragraph [ref=e1146]: Hurghada, Gobernación del Mar Rojo, Egipto
+            - generic [ref=e1151]:
+              - heading "WhatsApp / Teléfono" [level=4] [ref=e1152]
+              - link "+20 15 0708 3062" [ref=e1153] [cursor=pointer]:
+                - /url: tel:+201507083062
+            - generic [ref=e1159]:
+              - heading "Email" [level=4] [ref=e1160]
+              - link "info@buceohurgada.com" [ref=e1161] [cursor=pointer]:
+                - /url: mailto:info@buceohurgada.com
+            - generic [ref=e1167]:
+              - heading "Horario de atención" [level=4] [ref=e1168]
+              - paragraph [ref=e1169]: "Lunes a Domingo: 8:00 AM - 8:00 PM"
+          - iframe [ref=e1171]:
+            - link "Open in Maps (opens in new tab)" [ref=f2e4] [cursor=pointer]:
+              - /url: about:invalid#zClosurez
+              - text: Open in Maps
+        - generic [ref=e1172]:
+          - heading "Envíanos un mensaje" [level=3] [ref=e1173]
+          - generic [ref=e1174]:
+            - generic [ref=e1175]:
+              - generic [ref=e1176]: Nombre completo *
+              - textbox "Nombre completo *" [ref=e1177]:
+                - /placeholder: Tu nombre
+            - generic [ref=e1178]:
+              - generic [ref=e1179]: Correo electrónico *
+              - textbox "Correo electrónico *" [ref=e1180]:
+                - /placeholder: tu@correo.com
+            - generic [ref=e1181]:
+              - generic [ref=e1182]: WhatsApp (con código de país) *
+              - textbox "WhatsApp (con código de país) *" [ref=e1183]:
+                - /placeholder: +34 600 000 000
+            - generic [ref=e1184]:
+              - generic [ref=e1185]: Actividad de interés *
+              - combobox "Actividad de interés *" [ref=e1186]:
+                - option "Selecciona una opción" [selected]
+                - option "Bautismo de Buceo"
+                - option "Buceo Diario (Buceadores certificados)"
+                - option "Día de Snorkel"
+                - option "Curso PADI"
+                - option "Curso SSI"
+                - option "Otra consulta"
+            - generic [ref=e1187]:
+              - generic [ref=e1188]: Fecha preferida
+              - textbox "Fecha preferida" [ref=e1189]
+            - generic [ref=e1190]:
+              - generic [ref=e1191]: Mensaje *
+              - textbox "Mensaje *" [ref=e1192]:
+                - /placeholder: Cuéntanos más sobre lo que buscas...
+            - button "Enviar Mensaje" [ref=e1193]
+            - paragraph [ref=e1197]: Tus datos están seguros y solo se usarán para contactarte.
+  - contentinfo [ref=e1198]:
+    - generic [ref=e1199]:
+      - generic [ref=e1200]:
+        - generic [ref=e1201]:
+          - link "BuceoHurgada" [ref=e1202] [cursor=pointer]:
+            - /url: /
+          - paragraph [ref=e1204]: Explora las maravillas del Mar Rojo con nuestro centro de buceo en Hurghada. Ofrecemos experiencias seguras, divertidas y en español para todos los niveles.
+          - generic [ref=e1205]:
+            - link "Facebook" [ref=e1206] [cursor=pointer]:
+              - /url: "#"
+            - link "Instagram" [ref=e1209] [cursor=pointer]:
+              - /url: "#"
+            - link "TikTok" [ref=e1212] [cursor=pointer]:
+              - /url: "#"
+            - link "YouTube" [ref=e1215] [cursor=pointer]:
+              - /url: "#"
+            - link "WhatsApp" [ref=e1218] [cursor=pointer]:
+              - /url: "#"
+        - generic [ref=e1221]:
+          - heading "Enlaces Rápidos" [level=3] [ref=e1222]
+          - list [ref=e1223]:
+            - listitem [ref=e1224]:
+              - link "Inicio" [ref=e1225] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=e1226]:
+              - link "Sobre Nosotros" [ref=e1227] [cursor=pointer]:
+                - /url: "#nosotros"
+            - listitem [ref=e1228]:
+              - link "Galería" [ref=e1229] [cursor=pointer]:
+                - /url: "#galeria"
+            - listitem [ref=e1230]:
+              - link "Preguntas Frecuentes" [ref=e1231] [cursor=pointer]:
+                - /url: "#faq"
+            - listitem [ref=e1232]:
+              - link "Contacto" [ref=e1233] [cursor=pointer]:
+                - /url: "#contacto"
+        - generic [ref=e1234]:
+          - heading "Servicios" [level=3] [ref=e1235]
+          - list [ref=e1236]:
+            - listitem [ref=e1237]:
+              - link "Bautismo de Buceo" [ref=e1238] [cursor=pointer]:
+                - /url: "#experiencias"
+            - listitem [ref=e1239]:
+              - link "Buceo Diario" [ref=e1240] [cursor=pointer]:
+                - /url: "#experiencias"
+            - listitem [ref=e1241]:
+              - link "Día de Snorkel" [ref=e1242] [cursor=pointer]:
+                - /url: "#experiencias"
+            - listitem [ref=e1243]:
+              - link "Cursos PADI" [ref=e1244] [cursor=pointer]:
+                - /url: "#cursos"
+            - listitem [ref=e1245]:
+              - link "Cursos SSI" [ref=e1246] [cursor=pointer]:
+                - /url: "#cursos"
+        - generic [ref=e1247]:
+          - heading "Contacto" [level=3] [ref=e1248]
+          - list [ref=e1249]:
+            - listitem [ref=e1250]:
+              - generic [ref=e1254]: Hurghada, Mar Rojo, Egipto
+            - listitem [ref=e1255]:
+              - link "+20 15 0708 3062" [ref=e1258] [cursor=pointer]:
+                - /url: tel:+201507083062
+            - listitem [ref=e1259]:
+              - link "info@buceohurgada.com" [ref=e1263] [cursor=pointer]:
+                - /url: mailto:info@buceohurgada.com
+      - generic [ref=e1264]:
+        - paragraph [ref=e1265]: © 2026 Buceo Hurgada. Todos los derechos reservados.
+        - generic [ref=e1266]:
+          - link "Política de Privacidad" [ref=e1267] [cursor=pointer]:
+            - /url: "#"
+          - link "Términos y Condiciones" [ref=e1268] [cursor=pointer]:
+            - /url: "#"
+  - button "Open Next.js Dev Tools" [ref=e1274] [cursor=pointer]

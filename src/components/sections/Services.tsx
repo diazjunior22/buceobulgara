@@ -10,7 +10,7 @@ const services = [
     title: "Bautismo de Buceo",
     description: "Tu primera experiencia bajo el agua. Ideal para quienes desean descubrir el buceo de forma segura y divertida.",
     icon: Anchor,
-    image: "/experiencias/bautismo-buceo.webp",
+    image: "/experiencias/bautismo-buceo.jpg",
     color: "from-blue-600 to-cyan-500"
   },
   {
@@ -31,14 +31,14 @@ const services = [
     title: "Cursos PADI",
     description: "Certificaciones internacionales desde Open Water hasta niveles avanzados.",
     icon: GraduationCap,
-    image: "/experiencias/cursos-buceo.jpg",
+    image: "/experiencias/cursos-padi.jpg",
     color: "from-blue-500 to-indigo-500"
   },
   {
     title: "Cursos SSI",
     description: "Formación profesional con certificación internacional adaptada a cada nivel.",
     icon: Award,
-    image: "/experiencias/cursos-buceo.jpg",
+    image: "/experiencias/curso-ssi.jpg",
     color: "from-purple-500 to-pink-500"
   }
 ];
