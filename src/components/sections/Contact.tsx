@@ -68,7 +68,7 @@ export default function Contact() {
       <div className="relative py-24 bg-primary overflow-hidden">
         <div className="absolute inset-0 z-0">
           <Image 
-            src="https://images.unsplash.com/photo-1544550581-5f7ceaf7f992?q=80&w=2070&auto=format&fit=crop" 
+            src="/cta-buceo.jpg"
             alt="Mar Rojo" 
             fill
             sizes="100vw"

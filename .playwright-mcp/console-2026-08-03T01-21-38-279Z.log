@@ -1,0 +1,7 @@
+[    1172ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/002d_next_dist_0f0b26l._.js:2477
+[    1320ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/002d_next_dist_0f0b26l._.js:2477
+[    1973ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/002d_next_dist_0f0b26l._.js:2477
+[    2051ms] [LOG] [Fast Refresh] done in 186ms @ http://localhost:3000/_next/static/chunks/002d_next_dist_0f0b26l._.js:2477
+[    5563ms] [ERROR] React does not recognize the `%s` prop on a DOM element. If you intentionally want it to appear in the DOM as a custom attribute, spell it as lowercase `%s` instead. If you accidentally passed it from a parent component, remove it from the DOM element. allowTransparency allowtransparency @ http://localhost:3000/_next/static/chunks/002d_next_dist_0f0b26l._.js:3318
+[    5774ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/002d_next_dist_0f0b26l._.js:2477
+[    6491ms] [LOG] [Fast Refresh] done in 842ms @ http://localhost:3000/_next/static/chunks/002d_next_dist_0f0b26l._.js:2477
