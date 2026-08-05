@@ -10,36 +10,31 @@ const services = [
     title: "Bautismo de Buceo",
     description: "Tu primera experiencia bajo el agua. Ideal para quienes desean descubrir el buceo de forma segura y divertida.",
     icon: Anchor,
-    image: "/experiencias/bautismo-buceo.jpg",
-    color: "from-blue-600 to-cyan-500"
+    image: "/experiencias/bautismo-buceo.jpg"
   },
   {
     title: "Buceo Diario",
     description: "Explora los mejores arrecifes del Mar Rojo acompañado de instructores certificados.",
     icon: Navigation,
-    image: "/experiencias/buceo-diario.jpg",
-    color: "from-cyan-500 to-sky-400"
+    image: "/experiencias/buceo-diario.jpg"
   },
   {
     title: "Día de Snorkel",
     description: "Una aventura perfecta para toda la familia disfrutando de aguas cristalinas y una impresionante vida marina.",
     icon: Fish,
-    image: "/experiencias/dia-snorkel.jpg",
-    color: "from-teal-400 to-emerald-400"
+    image: "/experiencias/dia-snorkel.jpg"
   },
   {
     title: "Cursos PADI",
     description: "Certificaciones internacionales desde Open Water hasta niveles avanzados.",
     icon: GraduationCap,
-    image: "/experiencias/cursos-padi.jpg",
-    color: "from-blue-500 to-indigo-500"
+    image: "/experiencias/cursos-padi.jpg"
   },
   {
     title: "Cursos SSI",
     description: "Formación profesional con certificación internacional adaptada a cada nivel.",
     icon: Award,
-    image: "/experiencias/curso-ssi.jpg",
-    color: "from-purple-500 to-pink-500"
+    image: "/experiencias/curso-ssi.jpg"
   }
 ];
 
@@ -115,7 +110,6 @@ export default function Services() {
                   sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                   className="object-cover transition-transform duration-700 ease-[cubic-bezier(0.23,1,0.32,1)] group-hover:scale-105"
                 />
-                <div className={`absolute inset-0 bg-gradient-to-t ${service.color} opacity-40 mix-blend-multiply transition-opacity duration-500 group-hover:opacity-50`}></div>
                 <div className="absolute top-4 right-4 w-12 h-12 bg-bg-white/90 backdrop-blur-md rounded-2xl flex items-center justify-center shadow-lg transform transition-transform duration-500 ease-[cubic-bezier(0.23,1,0.32,1)] group-hover:-translate-y-1 group-hover:shadow-xl">
                   <service.icon size={24} className="text-primary" />
                 </div>

@@ -16,7 +16,6 @@ interface DivePackage {
   note?: string;
   image: string;
   icon: typeof Ship;
-  color: string;
   waMessage: string;
 }
 
@@ -31,7 +30,6 @@ const packages: DivePackage[] = [
     note: "Dependiendo de las condiciones clim\u00e1ticas, tambi\u00e9n puedes a\u00f1adir una experiencia de bautismo de buceo. Esta actividad no est\u00e1 incluida en el precio.",
     image: "/dive-packages/experiencias-superficie.jpg",
     icon: Ship,
-    color: "from-blue-600 to-cyan-500",
     waMessage:
       "Hola, estoy interesado en reservar el paquete Experiencias en la Superficie por 30\u20ac por persona. Me gustar\u00eda saber la disponibilidad.",
   },
@@ -45,7 +43,6 @@ const packages: DivePackage[] = [
     includes: ["Transporte", "Almuerzo", "Gu\u00eda de buceo", "Equipo de buceo", "2 inmersiones"],
     image: "/dive-packages/arrecifes-poco-profundos.jpg",
     icon: Fish,
-    color: "from-cyan-500 to-sky-400",
     waMessage:
       "Hola, estoy interesado en reservar el paquete Buceo en Arrecifes Poco Profundos por 60\u20ac por persona. Me gustar\u00eda saber la disponibilidad.",
   },
@@ -59,7 +56,6 @@ const packages: DivePackage[] = [
     includes: ["Gu\u00eda de buceo personal", "Transporte", "Equipo de buceo", "1 inmersi\u00f3n en pecio", "2 inmersiones normales", "Almuerzo"],
     image: "/dive-packages/naufragios-profundo.jpg",
     icon: Anchor,
-    color: "from-teal-400 to-emerald-400",
     waMessage:
       "Hola, estoy interesado en reservar el paquete Buceo en Naufragios de Aguas Profundas por 80\u20ac por persona. Me gustar\u00eda saber la disponibilidad.",
   },
@@ -73,7 +69,6 @@ const packages: DivePackage[] = [
     includes: ["Transporte", "Gu\u00eda de buceo personal", "Equipo de buceo"],
     image: "/dive-packages/buceo-nocturno.jpg",
     icon: Moon,
-    color: "from-blue-500 to-indigo-500",
     waMessage:
       "Hola, estoy interesado en reservar el paquete Buceo Nocturno por 80\u20ac por persona. Me gustar\u00eda saber la disponibilidad.",
   },
@@ -154,9 +149,6 @@ export default function DivePackages() {
                   sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 25vw"
                   className="object-cover transition-transform duration-700 ease-[cubic-bezier(0.23,1,0.32,1)] group-hover:scale-105"
                 />
-                <div
-                  className={`absolute inset-0 bg-gradient-to-t ${pkg.color} opacity-40 mix-blend-multiply transition-opacity duration-500 group-hover:opacity-50`}
-                ></div>
                 <div className="absolute top-4 right-4 w-10 h-10 bg-bg-white/90 backdrop-blur-md rounded-2xl flex items-center justify-center shadow-lg transform transition-transform duration-500 ease-[cubic-bezier(0.23,1,0.32,1)] group-hover:-translate-y-1 group-hover:shadow-xl">
                   <pkg.icon size={20} className="text-primary" />
                 </div>

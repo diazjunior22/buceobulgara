@@ -58,7 +58,6 @@ function ReelCard({ reel }: { reel: typeof reels[0] }) {
             className={`absolute inset-0 w-full h-full transition-opacity duration-500 ${loaded ? "opacity-100" : "opacity-0"}`}
             frameBorder="0"
             scrolling="no"
-            allowTransparency
             allow="autoplay; encrypted-media"
             onLoad={() => setLoaded(true)}
           />

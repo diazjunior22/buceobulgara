@@ -5,28 +5,31 @@ import { motion, AnimatePresence } from "framer-motion";
 import { X, ChevronLeft, ChevronRight, Image as ImageIcon } from "lucide-react";
 import Image from "next/image";
 
+import img1 from "@/components/assets/galery/1_.jpg";
+import img2 from "@/components/assets/galery/2_.jpg";
+import img3 from "@/components/assets/galery/3_.jpg";
+import img4 from "@/components/assets/galery/4_.jpg";
+import img5 from "@/components/assets/galery/5_.jpg";
+import img6 from "@/components/assets/galery/6_.jpg";
+import img7 from "@/components/assets/galery/7_.jpg";
+import img8 from "@/components/assets/galery/8_.jpg";
+import img9 from "@/components/assets/galery/9.jpg";
+import img10 from "@/components/assets/galery/10_.jpg";
+import img11 from "@/components/assets/galery/11.jpg";
+import img12 from "@/components/assets/galery/12.jpg";
+import img13 from "@/components/assets/galery/13.jpg";
+import img14 from "@/components/assets/galery/14.jpg";
+import img15 from "@/components/assets/galery/15 (1).jpg";
+import img16 from "@/components/assets/galery/16.jpg";
+import img17 from "@/components/assets/galery/17.jpg";
+import img18 from "@/components/assets/galery/18.jpg";
+import img19 from "@/components/assets/galery/19_.jpg";
+import img20 from "@/components/assets/galery/20_.jpg";
+
 const images = [
-  { src: "/gallery/01-bautismo-de-buceo.jpg", name: "Bautismo de Buceo", span: "square" },
-  { src: "/gallery/02-buceo-diario.jpg", name: "Buceo Diario", span: "square" },
-  { src: "/gallery/03-dia-de-snorkel.jpg", name: "Día de Snorkel", span: "square" },
-  { src: "/gallery/04-cursos-padi.jpg", name: "Cursos Padi", span: "square" },
-  { src: "/gallery/05-curso-ssi.jpg", name: "Curso SSI", span: "tall" },
-  { src: "/gallery/06-experiencias-superficie.jpg", name: "Experiencias en la Superficie", span: "wide" },
-  { src: "/gallery/07-arrecifes-poco-profundos.jpg", name: "Arrecifes Poco Profundos", span: "square" },
-  { src: "/gallery/08-naufragios-profundos.jpg", name: "Naufragios de Aguas Profundas", span: "square" },
-  { src: "/gallery/09-buceo-nocturno.jpg", name: "Buceo Nocturno", span: "square" },
-  { src: "/gallery/10-cliente-1.jpg", name: "Cliente 1", span: "square" },
-  { src: "/gallery/11-cliente-4.jpg", name: "Cliente 4", span: "square" },
-  { src: "/gallery/12-cliente.jpg", name: "Cliente", span: "square" },
-  { src: "/gallery/13-cliente3.jpg", name: "Cliente 3", span: "wide" },
-  { src: "/gallery/14-cliente5.jpg", name: "Cliente 5", span: "square" },
-  { src: "/gallery/15-cliente6.jpg", name: "Cliente 6", span: "square" },
-  { src: "/gallery/16-clientes7.jpg", name: "Clientes 7", span: "tall" },
-  { src: "/gallery/17-delfines.jpg", name: "Delfines", span: "square" },
-  { src: "/gallery/18-nosotros-patri-maged.jpg", name: "Nosotros (Patri y Maged)", span: "wide" },
-  { src: "/gallery/19-pez-globo-estrellado.jpg", name: "Pez Globo Estrellado", span: "square" },
-  { src: "/gallery/20-tortuga-carey.jpg", name: "Tortuga Carey", span: "square" },
-];
+  img1, img2, img3, img4, img5, img6, img7, img8, img9, img10,
+  img11, img12, img13, img14, img15, img16, img17, img18, img19, img20,
+].map((src) => ({ src, name: "Sin Nombre", span: "square" }));
 
 export default function Gallery() {
   const [selectedIndex, setSelectedIndex] = useState<number | null>(null);
