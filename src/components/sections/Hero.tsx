@@ -86,7 +86,7 @@ export default function Hero() {
       </motion.div>
 
       {/* Content */}
-      <div className="container relative z-30 mx-auto px-4 md:px-6 pt-20 pb-36 md:pb-44">
+      <div className="container relative z-30 mx-auto px-4 md:px-6 pt-32 md:pt-40 pb-36 md:pb-44">
         <motion.div
           variants={staggerContainer}
           initial="hidden"
