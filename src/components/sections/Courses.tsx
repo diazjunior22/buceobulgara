@@ -147,7 +147,7 @@ export default function Courses() {
             transition={{ delay: 0.1 }}
             className="font-poppins font-bold text-3xl md:text-5xl text-text-dark mb-6"
           >
-            Cursos de Buceo
+            Cursos de buceo PADI y SSI en Hurghada
           </motion.h2>
           <motion.p
             initial={{ opacity: 0, y: 20 }}

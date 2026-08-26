@@ -76,7 +76,7 @@ export default function Services() {
             transition={{ delay: 0.1 }}
             className="font-poppins font-bold text-3xl md:text-5xl text-text-dark mb-6"
           >
-            Aventuras Submarinas
+            Nuestras experiencias de buceo en Hurghada
           </motion.h2>
           <motion.p 
             initial={{ opacity: 0, y: 20 }}
@@ -85,7 +85,7 @@ export default function Services() {
             transition={{ delay: 0.2 }}
             className="text-text-muted text-lg"
           >
-            Descubre todo lo que el Mar Rojo tiene para ofrecer. Desde tus primeros respiros bajo el agua hasta certificaciones avanzadas.
+            Descubre todo lo que el Mar Rojo tiene para ofrecer. Desde tus primeros respiros bajo el agua con nuestro bautismo de buceo, hasta inmersiones para buceadores certificados y excursiones de snorkel en Hurghada.
           </motion.p>
         </div>
 

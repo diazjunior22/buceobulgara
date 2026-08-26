@@ -97,14 +97,14 @@ export default function Hero() {
             variants={fadeUp}
             className="font-poppins font-extrabold text-4xl md:text-6xl lg:text-7xl text-bg-white leading-tight tracking-tight mb-6"
           >
-            Explora el <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-cyan-300">Mar Rojo</span> como nunca imaginaste
+            Buceo Hurgada: <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-cyan-300">Explora el Mar Rojo</span> como nunca imaginaste
           </motion.h1>
 
           <motion.p
             variants={fadeUp}
             className="text-lg md:text-xl text-gray-200 mb-10 max-w-2xl font-light"
           >
-            Explora las maravillas del Mar Rojo con nuestro centro de buceo en Hurghada, Egipto. Disfruta de bautismos de buceo, cursos PADI y SSI, excursiones diarias y experiencias inolvidables para todos los niveles.
+            Descubre las maravillas submarinas de Hurghada, Egipto, con experiencias de buceo en español para principiantes y buceadores certificados. Disfruta de bautismos de buceo, cursos PADI y SSI, inmersiones, snorkel, naufragios y experiencias inolvidables en el Mar Rojo.
           </motion.p>
 
           <motion.div variants={fadeUp} className="flex flex-col sm:flex-row items-center gap-4 w-full sm:w-auto">

@@ -46,7 +46,7 @@ export default function About() {
             <div className="relative rounded-3xl overflow-hidden shadow-2xl aspect-[4/5] md:aspect-square lg:aspect-[4/5] border border-gray-100 bg-bg-light flex items-center justify-center p-8 md:p-12">
               <Image
                 src="/logo.png"
-                alt="Buceo Hurgada"
+                alt="Buceador explorando un arrecife de coral en Hurghada, Mar Rojo"
                 fill
                 className="object-contain p-4"
                 sizes="(max-width: 768px) 100vw, 50vw"
@@ -89,14 +89,14 @@ export default function About() {
               variants={itemVariants}
               className="font-poppins font-bold text-3xl md:text-4xl lg:text-5xl text-text-dark mb-6 leading-tight"
             >
-              Buceo en español en el corazón del <span className="text-primary">Mar Rojo</span>
+              Buceo en Hurghada, Egipto
             </motion.h2>
             
             <motion.p 
               variants={itemVariants}
               className="text-text-muted text-lg leading-relaxed mb-8"
             >
-              Nuestra pasión es compartir la magia del mundo submarino. Ofrecemos experiencias personalizadas, atención cálida en español e inglés, equipos certificados de la más alta calidad y muchos años de experiencia explorando los mejores y más vibrantes arrecifes de Hurghada.
+              Descubre por qué el Mar Rojo es considerado uno de los mejores destinos de buceo del mundo. En Hurghada encontrarás aguas cristalinas, impresionantes arrecifes de coral llenos de vida marina y famosos naufragios. Disfruta de la máxima seguridad y comodidad con nuestra atención 100% en español, tanto para principiantes como para buceadores certificados.
             </motion.p>
 
             <motion.ul variants={containerVariants} className="flex flex-col gap-4 mb-10">
@@ -111,8 +111,8 @@ export default function About() {
             </motion.ul>
 
             <motion.div variants={itemVariants}>
-              <a href="#contacto" className="btn-press inline-flex px-8 py-3 bg-text-dark text-bg-white rounded-full font-semibold hover:bg-gray-800 shadow-md transition-colors">
-                Conócenos mejor
+              <a href="#cursos" className="btn-press inline-flex px-8 py-3 bg-text-dark text-bg-white rounded-full font-semibold hover:bg-gray-800 shadow-md transition-colors">
+                Ver Cursos de Buceo
               </a>
             </motion.div>
           </motion.div>
