@@ -56,7 +56,7 @@ export const metadata: Metadata = {
     canonical: "https://buceohurgada.com",
   },
   verification: {
-    google: "l7t1NCCRYWH5e8SisVV2RyWeR5tbJMrSO2HboSuycGg",
+    google: "nsQxypJpvkI9tDLP-gI4uNuRp6uXQdsnhZEYl1UPq_A",
   },
 };
 

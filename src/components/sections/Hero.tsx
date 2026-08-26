@@ -86,7 +86,7 @@ export default function Hero() {
       </motion.div>
 
       {/* Content */}
-      <div className="container relative z-30 mx-auto px-4 md:px-6 pt-32 md:pt-40 pb-36 md:pb-44">
+      <div className="container relative z-30 mx-auto px-4 md:px-6 pt-20 md:pt-28 pb-40 md:pb-48">
         <motion.div
           variants={staggerContainer}
           initial="hidden"
@@ -95,14 +95,14 @@ export default function Hero() {
         >
           <motion.h1
             variants={fadeUp}
-            className="font-poppins font-extrabold text-4xl md:text-6xl lg:text-7xl text-bg-white leading-tight tracking-tight mb-6"
+            className="font-poppins font-extrabold text-3xl md:text-5xl lg:text-6xl text-bg-white leading-tight tracking-tight mb-4 max-w-4xl"
           >
-            Buceo Hurgada: <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-cyan-300">Explora el Mar Rojo</span> como nunca imaginaste
+            Buceo Hurgada:<br /> <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-cyan-300">Explora el Mar Rojo</span><br className="hidden md:block" /> como nunca imaginaste
           </motion.h1>
 
           <motion.p
             variants={fadeUp}
-            className="text-lg md:text-xl text-gray-200 mb-10 max-w-2xl font-light"
+            className="text-base md:text-lg text-gray-200 mb-8 max-w-2xl font-light"
           >
             Descubre las maravillas submarinas de Hurghada, Egipto, con experiencias de buceo en español para principiantes y buceadores certificados. Disfruta de bautismos de buceo, cursos PADI y SSI, inmersiones, snorkel, naufragios y experiencias inolvidables en el Mar Rojo.
           </motion.p>
