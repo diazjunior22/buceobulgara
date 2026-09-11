@@ -11,38 +11,42 @@ import Image from "next/image";
 
 const testimonials = [
   {
-    name: "Carlos M.",
-    country: "España",
-    text: "Hicimos el curso PADI Open Water y la experiencia fue increíble. Instructores súper pacientes y un equipo de primera. ¡Volveremos seguro!",
+    name: "Niko G",
+    country: "TripAdvisor",
+    text: "Una experiencia increíble de buceo en el Mar Rojo. Desde el primer momento, Maged y Patri nos hicieron sentir muy cómodos y bien acompañados. El barco estaba muy bien equipado y la organización fue excelente.",
     rating: 5,
-    image: "https://images.unsplash.com/photo-1599566150163-29194dcaad36?q=80&w=200&auto=format&fit=crop"
+    image: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/ef/73/default-avatar-2020-13.jpg?w=300&h=-1&s=1",
+    link: "https://www.tripadvisor.es/Attraction_Review-g297549-d34587487-Reviews-Buceo_Hurgada-Hurghada_Red_Sea_and_Sinai.html"
   },
   {
-    name: "Laura G.",
-    country: "Argentina",
-    text: "El bautismo de buceo superó todas mis expectativas. Ver tortugas y esos arrecifes tan coloridos fue mágico. La seguridad que transmiten es total.",
+    name: "German O",
+    country: "TripAdvisor",
+    text: "Uno de los mejores buceos de mi vida, la experiencia fue INCREIBLE. Destaco la AMABILIDAD de los responsables, me explicaron todo con paciencia, se adaptaron a mi ritmo. RECOMIENDO AL 100%.",
     rating: 5,
-    image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=200&auto=format&fit=crop"
+    image: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/f2/59/default-avatar-2020-24.jpg?w=300&h=-1&s=1",
+    link: "https://www.tripadvisor.es/Attraction_Review-g297549-d34587487-Reviews-Buceo_Hurgada-Hurghada_Red_Sea_and_Sinai.html#/media/34587487/877127610:p/?albumid=107&type=0&category=107"
   },
   {
-    name: "David y Elena",
-    country: "México",
-    text: "Días de snorkel perfectos. Nos llevaron a los mejores puntos lejos de las multitudes. Atención inmejorable en nuestro idioma.",
+    name: "Cristina R",
+    country: "TripAdvisor",
+    text: "Maged y Patri fueron súper simpáticos, atentos y cercanos; nos cuidaron muchísimo y fueron muy profesionales. Fue una experiencia súper bonita e inolvidable para el recuerdo!",
     rating: 5,
-    image: "https://images.unsplash.com/photo-1527980965255-d3b416303d12?q=80&w=200&auto=format&fit=crop"
+    image: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/e2/11/default-avatar-2020-41.jpg?w=300&h=-1&s=1",
+    link: "https://www.tripadvisor.es/Attraction_Review-g297549-d34587487-Reviews-Buceo_Hurgada-Hurghada_Red_Sea_and_Sinai.html#/media-atf/34587487/877645566:p/?albumid=-160&type=0&category=-160"
   },
   {
-    name: "Javier R.",
-    country: "Chile",
-    text: "Organización de 10. Desde la recogida en el hotel hasta el último momento en el barco. El mejor centro de buceo de todo Hurghada.",
+    name: "María Gabriela S",
+    country: "TripAdvisor",
+    text: "Una experiencia fantástica de principio a fin. El equipo fue muy profesional, amable y atento en todo momento. Nos hicieron sentir seguros y disfrutamos muchísimo. ¡Sin duda repetiríamos!",
     rating: 5,
-    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=200&auto=format&fit=crop"
+    image: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/f0/48/default-avatar-2020-15.jpg?w=100&h=100&s=1",
+    link: "https://www.tripadvisor.es/Attraction_Review-g297549-d34587487-Reviews-Buceo_Hurgada-Hurghada_Red_Sea_and_Sinai.html#/media-atf/34587487/876956278:p/?albumid=-160&type=0&category=-160"
   }
 ];
 
 export default function Testimonials() {
   return (
-    <section className="py-24 bg-bg-white relative overflow-hidden">
+    <section id="opiniones" className="py-24 bg-bg-white relative overflow-hidden">
       {/* Elementos decorativos */}
       <div className="absolute top-1/2 left-0 w-64 h-64 bg-primary/5 rounded-full blur-[80px] -translate-y-1/2 -translate-x-1/2 pointer-events-none"></div>
       
@@ -79,10 +83,20 @@ export default function Testimonials() {
                     <Star key={i} size={16} fill="currentColor" />
                   ))}
                 </div>
-                <div className="text-sm font-semibold text-text-dark">4.9/5 en Google y TripAdvisor</div>
+                
+                <div className="text-sm font-semibold text-text-dark">5/5 Excelente en TripAdvisor</div>
               </div>
             </div>
+            <div className="mt-8 flex flex-col sm:flex-row gap-4">
+              <a href="https://www.tripadvisor.es/Attraction_Review-g297549-d34587487-Reviews-Buceo_Hurgada-Hurghada_Red_Sea_and_Sinai.html" target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 px-6 py-3 bg-[#34E0A1] text-[#000a12] font-bold rounded-full hover:bg-[#2CBF89] transition-colors shadow-md text-center">
+                Leer opiniones
+              </a>
+              <a href="https://www.tripadvisor.es/UserReviewEdit-g297549-d34587487-Buceo_Hurgada-Hurghada_Red_Sea_and_Sinai.html" target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 px-6 py-3 bg-white border-2 border-[#34E0A1] text-text-dark font-bold rounded-full hover:bg-gray-50 transition-colors shadow-sm text-center">
+                Escribir una opinión
+              </a>
+            </div>
           </motion.div>
+
 
           <motion.div 
             initial={{ opacity: 0, scale: 0.95 }}
@@ -101,7 +115,7 @@ export default function Testimonials() {
             >
               {testimonials.map((testimonial, index) => (
                 <SwiperSlide key={index}>
-                  <div className="bg-bg-white border border-gray-100 rounded-3xl p-8 shadow-[0_15px_40px_rgba(0,0,0,0.08)]">
+                  <a href={testimonial.link} target="_blank" rel="noopener noreferrer" className="block bg-bg-white border border-gray-100 rounded-3xl p-8 shadow-[0_15px_40px_rgba(0,0,0,0.08)] hover:shadow-xl transition-shadow duration-300">
                     <Quote size={40} className="text-primary/20 mb-4" />
                     
                     <div className="flex text-yellow-400 mb-6">
@@ -123,7 +137,7 @@ export default function Testimonials() {
                         <p className="text-sm text-text-muted">{testimonial.country}</p>
                       </div>
                     </div>
-                  </div>
+                  </a>
                 </SwiperSlide>
               ))}
             </Swiper>

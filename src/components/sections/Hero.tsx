@@ -60,7 +60,7 @@ export default function Hero() {
   };
 
   return (
-    <section className="relative h-screen min-h-[600px] w-full flex items-center justify-center overflow-hidden bg-text-dark">
+    <section className="relative min-h-[100svh] w-full flex flex-col justify-center overflow-hidden bg-text-dark">
       {/* Background Video & Overlay with Parallax */}
       <motion.div style={{ y: y1, opacity }} className="absolute inset-0 z-0">
         {!videoError ? (
@@ -86,7 +86,7 @@ export default function Hero() {
       </motion.div>
 
       {/* Content */}
-      <div className="container relative z-30 mx-auto px-4 md:px-6 pt-20 md:pt-28 pb-40 md:pb-48">
+      <div className="container relative z-30 mx-auto px-4 md:px-6 pt-32 pb-12 flex-1 flex flex-col justify-center">
         <motion.div
           variants={staggerContainer}
           initial="hidden"
@@ -119,7 +119,7 @@ export default function Hero() {
       </div>
 
       {/* Stats */}
-      <div className="absolute bottom-0 left-0 right-0 z-20 bg-gradient-to-t from-bg-white/80 to-transparent pt-8 pb-6">
+      <div className="relative w-full z-20 bg-gradient-to-t from-bg-white/80 to-transparent pt-8 pb-6 mt-auto">
         <div className="container mx-auto px-4 md:px-6">
           <motion.div
             initial={{ opacity: 0, y: 50, scale: 0.95 }}
@@ -139,10 +139,10 @@ export default function Hero() {
               <div ref={securityCount.nodeRef} className="font-poppins font-bold text-3xl md:text-4xl text-support mb-1">{securityCount.count}%</div>
               <div className="text-sm md:text-base text-text-muted font-medium">Seguridad</div>
             </div>
-            <div className="flex flex-col items-center justify-center text-center border-l border-gray-100 mt-4 md:mt-0">
+            <a href="#opiniones" className="flex flex-col items-center justify-center text-center border-l border-gray-100 mt-4 md:mt-0 cursor-pointer hover:scale-105 transition-transform duration-300">
               <div className="font-poppins font-bold text-3xl md:text-4xl text-yellow-400 mb-1">5★</div>
               <div className="text-sm md:text-base text-text-muted font-medium">Valoración</div>
-            </div>
+            </a>
           </motion.div>
         </div>
       </div>
