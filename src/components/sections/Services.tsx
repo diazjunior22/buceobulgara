@@ -10,31 +10,36 @@ const services = [
     title: "Bautismo de Buceo",
     description: "Tu primera experiencia bajo el agua. Ideal para quienes desean descubrir el buceo de forma segura y divertida.",
     icon: Anchor,
-    image: "/experiencias/bautismo-buceo.jpg"
+    image: "/experiencias/bautismo-buceo.jpg",
+    href: "#paquete-arrecifes"
   },
   {
     title: "Buceo Diario",
     description: "Explora los mejores arrecifes del Mar Rojo acompañado de instructores certificados.",
     icon: Navigation,
-    image: "/experiencias/buceo-diario.jpg"
+    image: "/experiencias/buceo-diario.jpg",
+    href: "#paquete-arrecifes"
   },
   {
     title: "Día de Snorkel",
     description: "Una aventura perfecta para toda la familia disfrutando de aguas cristalinas y una impresionante vida marina.",
     icon: Fish,
-    image: "/experiencias/dia-snorkel.jpg"
+    image: "/experiencias/dia-snorkel.jpg",
+    href: "#paquete-superficie"
   },
   {
     title: "Cursos PADI",
     description: "Certificaciones internacionales desde Open Water hasta niveles avanzados.",
     icon: GraduationCap,
-    image: "/experiencias/cursos-padi.jpg"
+    image: "/experiencias/cursos-padi.jpg",
+    href: "#cursos"
   },
   {
     title: "Cursos SSI",
     description: "Formación profesional con certificación internacional adaptada a cada nivel.",
     icon: Award,
-    image: "/experiencias/curso-ssi.jpg"
+    image: "/experiencias/curso-ssi.jpg",
+    href: "#cursos"
   }
 ];
 
@@ -105,7 +110,7 @@ export default function Services() {
               <div className="relative h-64 overflow-hidden">
                 <Image 
                   src={service.image} 
-                  alt={service.title} 
+                  alt={`Actividad de ${service.title} en Hurghada, Mar Rojo - Buceo Hurgada`} 
                   fill
                   sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                   className="object-cover transition-transform duration-700 ease-[cubic-bezier(0.23,1,0.32,1)] group-hover:scale-105"
@@ -123,10 +128,10 @@ export default function Services() {
                   {service.description}
                 </p>
                 <div className="mt-auto">
-                  <Link href="#contacto" className="inline-flex items-center gap-2 font-semibold text-primary hover:text-blue-800 transition-colors">
+                  <a href={service.href} className="inline-flex items-center gap-2 font-semibold text-primary hover:text-blue-800 transition-colors">
                     Ver más detalles
                     <ArrowRight size={18} className="transform transition-transform duration-300 group-hover:translate-x-1" />
-                  </Link>
+                  </a>
                 </div>
               </div>
             </motion.div>

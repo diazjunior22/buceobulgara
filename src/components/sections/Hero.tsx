@@ -97,7 +97,7 @@ export default function Hero() {
             variants={fadeUp}
             className="font-poppins font-extrabold text-3xl md:text-5xl lg:text-6xl text-bg-white leading-tight tracking-tight mb-4 max-w-4xl"
           >
-            Buceo Hurgada:<br /> <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-cyan-300">Explora el Mar Rojo</span><br className="hidden md:block" /> como nunca imaginaste
+            Buceo en Hurghada en Español:<br /> <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-cyan-300">Explora el Mar Rojo</span><br className="hidden md:block" /> como nunca imaginaste
           </motion.h1>
 
           <motion.p

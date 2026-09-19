@@ -69,7 +69,7 @@ export default function Contact() {
         <div className="absolute inset-0 z-0">
           <Image 
             src="/cta-buceo.jpg"
-            alt="Mar Rojo" 
+            alt="Centro de Buceo Buceo Hurgada en Hurghada, Egipto" 
             fill
             sizes="100vw"
             loading="lazy"

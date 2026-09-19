@@ -34,7 +34,7 @@ const packages: DivePackage[] = [
       "Hola, estoy interesado en reservar el paquete Experiencias en la Superficie por 30\u20ac por persona. Me gustar\u00eda saber la disponibilidad.",
   },
   {
-    title: "Buceo en Arrecifes Poco Profundos",
+    title: "Buceo en los Arrecifes del Mar Rojo",
     category: "Buceo",
     price: "60 €",
     description:
@@ -44,7 +44,7 @@ const packages: DivePackage[] = [
     image: "/dive-packages/arrecifes-poco-profundos.jpg",
     icon: Fish,
     waMessage:
-      "Hola, estoy interesado en reservar el paquete Buceo en Arrecifes Poco Profundos por 60\u20ac por persona. Me gustar\u00eda saber la disponibilidad.",
+      "Hola, estoy interesado en reservar el paquete Buceo en los Arrecifes del Mar Rojo por 60\u20ac por persona. Me gustar\u00eda saber la disponibilidad.",
   },
   {
     title: "Buceo en Naufragios de Aguas Profundas",
@@ -139,12 +139,13 @@ export default function DivePackages() {
             <motion.div
               key={pkg.title}
               variants={cardVariants}
-              className="group relative bg-bg-white rounded-3xl overflow-hidden shadow-sm hover:shadow-[0_20px_40px_rgba(0,0,0,0.08)] transition-all duration-500 ease-[cubic-bezier(0.23,1,0.32,1)] border border-gray-100 flex flex-col h-full"
+              id={pkg.title.includes("Arrecifes") ? "paquete-arrecifes" : pkg.title.includes("Superficie") ? "paquete-superficie" : undefined}
+              className="group relative bg-bg-white rounded-3xl overflow-hidden shadow-sm hover:shadow-[0_20px_40px_rgba(0,0,0,0.08)] transition-all duration-500 ease-[cubic-bezier(0.23,1,0.32,1)] border border-gray-100 flex flex-col h-full scroll-mt-32 highlight-target"
             >
               <div className="relative aspect-[4/3] overflow-hidden shrink-0">
                 <Image
                   src={pkg.image}
-                  alt={pkg.title}
+                  alt={`Paquete ${pkg.title} - Buceo en Hurghada, Egipto`}
                   fill
                   sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 25vw"
                   className="object-cover transition-transform duration-700 ease-[cubic-bezier(0.23,1,0.32,1)] group-hover:scale-105"

@@ -81,3 +81,48 @@ body {
     opacity: 0.015;
   }
 }
+
+/* Highlight Target Animation for Dive Packages */
+#paquete-arrecifes:target,
+#paquete-superficie:target {
+  animation: pulseCard 2.5s ease-in-out infinite;
+}
+
+#paquete-arrecifes:target h3,
+#paquete-superficie:target h3 {
+  animation: pulseTitleColor 2.5s ease-in-out infinite;
+}
+
+@keyframes pulseCard {
+  0% {
+    box-shadow: 0 0 0 0 rgba(40, 116, 252, 0.4);
+    border-color: transparent;
+    transform: translateY(0);
+    background-color: #ffffff;
+  }
+  50% {
+    box-shadow: 0 0 35px 8px rgba(40, 116, 252, 0.9);
+    border-color: #2874fc;
+    border-width: 2px;
+    transform: translateY(-8px);
+    background-color: #eff6ff;
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(40, 116, 252, 0.4);
+    border-color: transparent;
+    transform: translateY(0);
+    background-color: #ffffff;
+  }
+}
+
+@keyframes pulseTitleColor {
+  0% {
+    color: #000a12;
+  }
+  50% {
+    color: #2874fc;
+  }
+  100% {
+    color: #000a12;
+  }
+}

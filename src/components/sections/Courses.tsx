@@ -129,7 +129,7 @@ export default function Courses() {
   };
 
   return (
-    <section id="cursos" className="py-24 bg-bg-light">
+    <section id="cursos" className="py-24 bg-bg-light scroll-mt-20">
       <div className="container mx-auto px-4 md:px-6">
         <div className="text-center max-w-3xl mx-auto mb-16">
           <motion.div
