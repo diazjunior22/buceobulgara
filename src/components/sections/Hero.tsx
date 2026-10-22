@@ -3,6 +3,7 @@
 import { useEffect, useState, useRef } from "react";
 import { motion, useScroll, useTransform, useInView } from "framer-motion";
 import Link from "next/link";
+import Image from "next/image";
 import { Check, ArrowRight } from "lucide-react";
 
 function useCounter(end: number, duration: number = 2) {
@@ -37,8 +38,14 @@ export default function Hero() {
 
   useEffect(() => {
     const el = videoRef.current;
-    if (el && el.readyState >= 3) {
-      setVideoLoaded(true);
+    if (el) {
+      if (el.readyState >= 3) {
+        setVideoLoaded(true);
+      }
+      // Proactively request playback on mount
+      el.play().catch(() => {
+        // Autoplay may be deferred until user interaction on strict browsers
+      });
     }
   }, []);
 
@@ -60,29 +67,44 @@ export default function Hero() {
   };
 
   return (
-    <section className="relative min-h-[100svh] w-full flex flex-col justify-center overflow-hidden bg-text-dark">
-      {/* Background Video & Overlay with Parallax */}
+    <section className="relative min-h-[100svh] w-full flex flex-col justify-center overflow-hidden bg-[#06101d]">
+      {/* Background Video & Instant Fallback Poster with Parallax */}
       <motion.div style={{ y: y1, opacity }} className="absolute inset-0 z-0">
-        {!videoError ? (
+        {/* 1. Exact first-frame poster loaded instantly via Next.js Priority */}
+        <Image
+          src="/hero-poster.webp"
+          alt="Buceo en Hurghada en Español - Mar Rojo"
+          fill
+          priority
+          sizes="100vw"
+          
+          className="object-cover object-center select-none pointer-events-none"
+        />
+
+        {/* 2. HTML5 Video with matching poster and smooth fade-in */}
+        {!videoError && (
           <video
             ref={videoRef}
-            poster="https://images.unsplash.com/photo-1544550581-5f7ceaf7f992?q=80&w=2070&auto=format&fit=crop"
+            poster="/hero-poster.webp"
             autoPlay
             muted
             loop
             playsInline
-            preload="metadata"
+            preload="auto"
+            onPlaying={() => setVideoLoaded(true)}
             onLoadedData={() => setVideoLoaded(true)}
             onError={() => setVideoError(true)}
-            className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-700 ${videoLoaded ? "opacity-100" : "opacity-0"}`}
+            className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-1000 ease-out ${
+              videoLoaded ? "opacity-100" : "opacity-0"
+            }`}
           >
             <source src="/herobuceo.mp4" type="video/mp4" />
           </video>
-        ) : null}
-        {!videoLoaded && !videoError ? (
-          <div className="absolute inset-0 bg-gradient-to-br from-[#0a1628] via-[#0d2137] to-[#061220]" />
-        ) : null}
-        <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/30 to-black/80"></div>
+        )}
+
+        {/* 3. Cinematic Vignette & Deep Ocean Gradients (eliminates raw blue block and ensures text legibility) */}
+        <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/30 to-black/80 pointer-events-none" />
+        <div className="absolute inset-0 bg-radial-gradient from-transparent via-black/20 to-black/70 pointer-events-none" />
       </motion.div>
 
       {/* Content */}

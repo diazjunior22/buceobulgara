@@ -25,19 +25,26 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://www.buceohurgada.com"),
   title: "Buceo en Hurghada en Español | Cursos PADI, SSI y Bautismos - Buceo Hurgada",
   description: "Centro de buceo en español en Hurghada, Egipto. Bautismos de buceo en el Mar Rojo, cursos PADI y SSI, inmersiones diarias en arrecifes y snorkel. Instructores certificados y recogida en hotel.",
-  keywords: [
+    keywords: [
     "Buceo en Hurghada",
     "Buceo en Hurghada en español",
+    "Buceo Hurghada",
+    "Buceo Hurgada",
     "Buceo en Egipto",
+    "Buceo Egipto",
     "Buceo Mar Rojo",
+    "Buceo en el Mar Rojo",
+    "Centro de buceo Hurghada",
     "Cursos PADI Hurghada",
     "Cursos SSI Egipto",
     "Bautismo de buceo Hurghada",
+    "Bautismo de buceo en Egipto",
     "Bautismo de buceo Mar Rojo",
     "Snorkel Hurghada",
     "Excursiones de buceo en Hurghada",
     "Buceo Hurgada opiniones",
-    "Open Water Hurghada español"
+    "Open Water Hurghada español",
+    "Diving Hurghada spanish"
   ],
   authors: [{ name: "Buceo Hurgada", url: "https://www.buceohurgada.com" }],
   creator: "Buceo Hurgada",
@@ -105,23 +112,26 @@ export default function RootLayout({
   const jsonLd = {
     "@context": "https://schema.org",
     "@graph": [
-      {
+            {
         "@type": ["LocalBusiness", "SportsActivityLocation", "TouristAttraction"],
         "@id": "https://www.buceohurgada.com/#business",
         "name": "Buceo Hurgada",
-        "alternateName": "Buceo Hurghada - Centro de Buceo en Español",
+        "alternateName": ["Buceo Hurghada", "Centro de Buceo en Español Hurghada", "Buceo en Egipto en Español"],
         "url": "https://www.buceohurgada.com",
         "logo": "https://www.buceohurgada.com/logo.png",
         "image": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?q=80&w=1200&auto=format&fit=crop",
-        "description": "Centro de buceo en español en Hurghada, Egipto. Bautismos de buceo, cursos PADI y SSI certificados, inmersiones diarias en los mejores arrecifes del Mar Rojo y excursiones de snorkel.",
+        "description": "Centro de buceo líder en español en Hurghada, Egipto. Especialistas en bautismos de buceo para principiantes, buceo diario guiado en el Mar Rojo y cursos certificados PADI y SSI con instructores hispanohablantes.",
         "telephone": "+201507083062",
+        "email": "reservas@buceohurgada.com",
         "priceRange": "€€",
         "currenciesAccepted": "EUR, USD, EGP",
         "paymentAccepted": "Cash, Credit Card, Revolut, Bizum",
         "address": {
           "@type": "PostalAddress",
+          "streetAddress": "Hurghada Marina, Red Sea",
           "addressLocality": "Hurghada",
           "addressRegion": "Red Sea Governorate",
+          "postalCode": "84511",
           "addressCountry": "EG"
         },
         "geo": {
@@ -129,6 +139,27 @@ export default function RootLayout({
           "latitude": 27.2579,
           "longitude": 33.8116
         },
+        "hasMap": "https://maps.google.com/?q=Hurghada+Marina+Red+Sea+Egypt",
+        "areaServed": [
+          { "@type": "City", "name": "Hurghada", "sameAs": "https://es.wikipedia.org/wiki/Hurghada" },
+          { "@type": "AdministrativeArea", "name": "Mar Rojo", "sameAs": "https://es.wikipedia.org/wiki/Mar_Rojo" },
+          { "@type": "Country", "name": "Egipto", "sameAs": "https://es.wikipedia.org/wiki/Egipto" },
+          { "@type": "City", "name": "El Gouna" },
+          { "@type": "Place", "name": "Makadi Bay" },
+          { "@type": "Place", "name": "Sahl Hasheesh" },
+          { "@type": "Place", "name": "Soma Bay" }
+        ],
+        "knowsAbout": [
+          "Buceo en Hurghada",
+          "Buceo en Egipto",
+          "Buceo en el Mar Rojo",
+          "Bautismos de buceo",
+          "Cursos PADI",
+          "Cursos SSI",
+          "Inmersiones en arrecifes y naufragios",
+          "Snorkel en Hurghada",
+          "Vida marina de Egipto"
+        ],
         "openingHoursSpecification": [
           {
             "@type": "OpeningHoursSpecification",
@@ -138,7 +169,8 @@ export default function RootLayout({
           }
         ],
         "sameAs": [
-          "https://www.tripadvisor.es/Attraction_Review-g297549-d34587487-Reviews-Buceo_Hurgada-Hurghada_Red_Sea_and_Sinai.html"
+          "https://www.tripadvisor.es/Attraction_Review-g297549-d34587487-Reviews-Buceo_Hurgada-Hurghada_Red_Sea_and_Sinai.html",
+          "https://maps.google.com/?q=Hurghada,Egypt"
         ],
         "aggregateRating": {
           "@type": "AggregateRating",
@@ -155,18 +187,34 @@ export default function RootLayout({
         "mainEntity": [
           {
             "@type": "Question",
-            "name": "¿Necesito experiencia previa para bucear en Hurghada?",
+            "name": "¿Por qué elegir buceo en Hurghada (Egipto) con Buceo Hurgada?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "No, ofrecemos programas como el Bautismo de Buceo diseñados específicamente para principiantes sin experiencia previa. Estarás acompañado por un instructor en español en todo momento."
+              "text": "Somos el centro de referencia de buceo en español en Hurghada, Egipto. Ofrecemos grupos reducidos, instructores hispanohablantes certificados, traslados desde tu hotel, barco cómodo con comida incluida y la máxima seguridad en los mejores arrecifes del Mar Rojo."
             }
           },
           {
             "@type": "Question",
-            "name": "¿Puedo hacer un bautismo de buceo en el Mar Rojo sin certificado?",
+            "name": "¿Necesito experiencia previa para bucear en Hurghada o Egipto?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Sí, el bautismo no requiere ninguna certificación previa. Se realiza con una sesión teórica y dos inmersiones personalizadas acompañadas por un instructor certificado."
+              "text": "No, no necesitas ninguna experiencia previa. Nuestro programa de Bautismo de Buceo está diseñado específicamente para principiantes. Incluye explicación teórica en español y 2 inmersiones personalizadas de la mano de un instructor profesional."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "¿Cuál es la mejor época para bucear en Egipto y el Mar Rojo?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "En Hurghada se puede bucear durante todo el año. La visibilidad supera casi siempre los 30 metros y la temperatura del agua oscila entre 22°C en invierno y 29°C en verano, lo que convierte a Egipto en uno de los mejores destinos de buceo del planeta."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "¿Qué vida marina se puede ver al bucear en Hurghada, Egipto?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "El Mar Rojo cuenta con más de 1.200 especies de peces y 200 corales. Es muy común observar delfines mulares, tortugas carey, peces payaso, rayas de puntos azules, morenas gigantes, peces loro y jardines de coral virgen."
             }
           },
           {
@@ -174,31 +222,15 @@ export default function RootLayout({
             "name": "¿Qué incluye el precio de las excursiones de buceo en Hurghada?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Nuestros precios incluyen equipo de buceo completo, instrucción en español, recogida y traslado desde tu hotel en Hurghada, almuerzo buffet recién preparado y bebidas a bordo durante todo el día."
+              "text": "Nuestros precios incluyen equipo de buceo completo revisado, instrucción en español, recogida y traslado desde tu hotel en Hurghada, comida buffet recién preparada a bordo y bebidas frías y calientes durante todo el día."
             }
           },
           {
             "@type": "Question",
-            "name": "¿Los instructores de Buceo Hurgada hablan español?",
+            "name": "¿Qué cursos de buceo certifican en Hurghada (PADI y SSI)?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "¡Por supuesto! Todo nuestro equipo habla español e inglés con total fluidez para garantizar tu seguridad, comodidad y máxima comprensión en cada inmersión."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "¿Hay servicio de transporte desde los hoteles de Hurghada?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Sí, ofrecemos recogida y regreso gratuito en todos los hoteles de Hurghada ciudad. Para zonas cercanas como Makadi Bay, Sahl Hasheesh o El Gouna, se aplica un pequeño suplemento."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "¿Qué cursos de buceo certifican en Hurghada?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Impartimos cursos oficiales PADI y SSI con validez internacional: desde Open Water Diver (OWD) y Advanced Open Water hasta cursos de rescate y especialidades de buceo profundo y flotabilidad."
+              "text": "Impartimos cursos oficiales PADI y SSI con validez internacional: Open Water Diver (OWD), Advanced Open Water, Rescue Diver y PADI Dive Master, todos con material de estudio y exámenes en español."
             }
           }
         ]

@@ -5,13 +5,34 @@ import { motion, AnimatePresence } from "framer-motion";
 import { ChevronDown } from "lucide-react";
 
 const faqs = [
-  { question: "¿Necesito experiencia previa?", answer: "No, ofrecemos programas como el Bautismo de Buceo diseñados específicamente para principiantes sin experiencia previa." },
-  { question: "¿Puedo hacer bautismo sin certificado?", answer: "Sí, el bautismo no requiere ninguna certificación. Estarás acompañado por un instructor en todo momento." },
-  { question: "¿Qué incluye el precio?", answer: "Nuestros precios incluyen equipo completo, instrucción, traslados desde/hacia el hotel y, en excursiones de día completo, comida y bebidas en el barco." },
-  { question: "¿Qué debo llevar?", answer: "Solo necesitas tu bañador, toalla, protector solar y muchas ganas de disfrutar. Del resto nos encargamos nosotros." },
-  { question: "¿Es seguro?", answer: "Totalmente. El buceo recreativo es muy seguro cuando se siguen las normas. Contamos con equipos de alta calidad revisados constantemente e instructores experimentados." },
-  { question: "¿Hablan español?", answer: "¡Por supuesto! Todo nuestro equipo habla español e inglés fluidamente para garantizar tu comodidad y seguridad." },
-  { question: "¿Hay transporte?", answer: "Sí, ofrecemos recogida gratuita en todos los hoteles de Hurghada. Para zonas alejadas como Makadi o El Gouna, aplicamos un pequeño suplemento." },
+  {
+    question: "¿Por qué elegir buceo en Hurghada (Egipto) con Buceo Hurgada?",
+    answer: "Somos el centro de buceo en español de referencia en Hurghada, Egipto. Ofrecemos grupos reducidos, instructores y guías hispanohablantes certificados, traslados incluidos desde tu hotel, barco espacioso con comida buffet recién hecha y la máxima seguridad en los arrecifes más bellos del Mar Rojo."
+  },
+  {
+    question: "¿Necesito experiencia previa para bucear en Hurghada o Egipto?",
+    answer: "No, no necesitas ninguna experiencia previa. Nuestro programa de Bautismo de Buceo está diseñado específicamente para principiantes. Incluye explicación teórica en español y 2 inmersiones personalizadas guiadas mano a mano por un instructor profesional."
+  },
+  {
+    question: "¿Cuál es la mejor época para hacer buceo en Egipto y el Mar Rojo?",
+    answer: "En Hurghada se bucea los 365 días del año. La visibilidad bajo el agua supera casi siempre los 30 metros y la temperatura oscila entre los 22°C en invierno y 29°C en verano, lo que convierte a Egipto en uno de los mejores destinos de buceo del mundo."
+  },
+  {
+    question: "¿Qué vida marina se puede ver al bucear en Hurghada, Egipto?",
+    answer: "El Mar Rojo alberga más de 1.200 especies de peces y 200 variedades de coral. Es muy habitual avistar delfines en libertad, tortugas marinas, peces payaso en sus anémonas, rayas de puntos azules, morenas gigantes, peces globo y espectaculares jardines de coral."
+  },
+  {
+    question: "¿Qué incluye el precio de las excursiones de buceo en Hurghada?",
+    answer: "Nuestros precios incluyen equipo completo de buceo de alta calidad revisado, instrucción en español, recogida y regreso en tu hotel en Hurghada, almuerzo buffet recién preparado a bordo y bebidas frías y calientes ilimitadas durante todo el día de navegación."
+  },
+  {
+    question: "¿Qué cursos oficiales de buceo certifican en Hurghada (PADI y SSI)?",
+    answer: "Impartimos cursos con certificación internacional oficial PADI y SSI: Open Water Diver (OWD), Advanced Open Water, cursos de especialidad y PADI Dive Master. Todo el material de estudio, manuales y exámenes están disponibles 100% en español."
+  },
+  {
+    question: "¿Ofrecen servicio de recogida y transporte en hoteles de Hurghada?",
+    answer: "Sí, disponemos de recogida y traslado de cortesía en todos los hoteles de Hurghada ciudad. Para zonas cercanas como El Gouna, Makadi Bay, Sahl Hasheesh o Soma Bay, organizamos el traslado con un pequeño suplemento."
+  }
 ];
 
 export default function FAQ() {

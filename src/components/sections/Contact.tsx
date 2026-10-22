@@ -65,7 +65,7 @@ export default function Contact() {
   return (
     <section id="contacto" className="relative">
       {/* CTA Section */}
-      <div className="relative py-24 bg-primary overflow-hidden">
+      <div className="relative py-24 bg-black/90 overflow-hidden">
         <div className="absolute inset-0 z-0">
           <Image 
             src="/cta-buceo.jpg"
@@ -75,7 +75,7 @@ export default function Contact() {
             loading="lazy"
             className="object-cover"
           />
-          <div className="absolute inset-0 bg-primary/80 mix-blend-multiply"></div>
+          <div className="absolute inset-0 bg-black/40 backdrop-brightness-90"></div>
         </div>
         
         <div className="container mx-auto px-4 md:px-6 relative z-10 text-center">
@@ -154,7 +154,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <h4 className="font-bold text-text-dark">Email</h4>
-                    <a href="mailto:info@buceohurgada.com" className="text-text-muted hover:text-primary transition-colors">info@buceohurgada.com</a>
+                    <a href="mailto:reservas@buceohurgada.com" className="text-text-muted hover:text-primary transition-colors">reservas@buceohurgada.com</a>
                   </div>
                 </div>
                 

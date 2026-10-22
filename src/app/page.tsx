@@ -1,3 +1,4 @@
+import WhatsAppButton from "@/components/ui/WhatsAppButton";
 import Navbar from "@/components/ui/Navbar";
 import Hero from "@/components/sections/Hero";
 import dynamic from "next/dynamic";
@@ -46,6 +47,7 @@ export default function Home() {
         <Contact />
       </main>
       <Footer />
+      <WhatsAppButton />
     </>
   );
 }

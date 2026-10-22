@@ -67,7 +67,18 @@ export default function Footer() {
             <ul className="flex flex-col gap-4">
               <li className="flex items-start gap-3">
                 <MapPin className="text-secondary shrink-0 mt-1" size={20} />
-                <span className="text-gray-400 text-sm">Hurghada, Mar Rojo, Egipto</span>
+                <div>
+                  <span className="text-gray-300 text-sm block font-medium">Hurghada, Mar Rojo, Egipto</span>
+                  <a 
+                    href="https://maps.google.com/?q=Hurghada+Marina,Red+Sea,Egypt" 
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="text-xs text-primary hover:text-cyan-400 transition-colors inline-flex items-center gap-1 mt-0.5"
+                    title="Ubicación y punto de embarque en Google Maps"
+                  >
+                    📍 Ver ubicación en Google Maps
+                  </a>
+                </div>
               </li>
               <li className="flex items-center gap-3">
                 <Phone className="text-secondary shrink-0" size={20} />
@@ -75,7 +86,7 @@ export default function Footer() {
               </li>
               <li className="flex items-center gap-3">
                 <Mail className="text-secondary shrink-0" size={20} />
-                <a href="mailto:info@buceohurgada.com" className="text-gray-400 hover:text-primary transition-colors text-sm">info@buceohurgada.com</a>
+                <a href="mailto:reservas@buceohurgada.com" className="text-gray-400 hover:text-primary transition-colors text-sm">reservas@buceohurgada.com</a>
               </li>
             </ul>
           </div>
