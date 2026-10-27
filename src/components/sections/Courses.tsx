@@ -16,16 +16,10 @@ interface Course {
 
 const courses: Course[] = [
   {
-    title: "PADI® Dive Master",
-    description: "Convierte tu pasión por el buceo en una profesión. Desarrolla tus habilidades y conocimientos para comenzar tu camino como profesional del buceo y convertirte en PADI Divemaster.",
-    price: 1000,
-    categories: ["Professionals"],
-  },
-  {
-    title: "PADI® Advanced Open Water Course",
-    description: "Lleva tus habilidades de buceo al siguiente nivel. Practica navegación y flotabilidad, experimenta el buceo profundo y descubre nuevas especialidades para ampliar tu experiencia bajo el agua.",
-    price: 1000,
-    categories: ["Advanced"],
+    title: "Scuba Diving Introduction",
+    description: "¿Te interesa el buceo pero no sabes exactamente qué esperar del mundo submarino? El curso de introducción es perfecto para descubrir la sensación única de respirar bajo el agua y vivir tu primera experiencia de buceo.",
+    price: 60,
+    categories: ["Beginners"],
   },
   {
     title: "PADI® Open Water Course",
@@ -35,16 +29,16 @@ const courses: Course[] = [
     popular: true,
   },
   {
-    title: "Scuba Diving Introduction",
-    description: "¿Te interesa el buceo pero no sabes exactamente qué esperar del mundo submarino? El curso de introducción es perfecto para descubrir la sensación única de respirar bajo el agua y vivir tu primera experiencia de buceo.",
-    price: 60,
-    categories: ["Beginners"],
+    title: "PADI® Advanced Open Water Course",
+    description: "Lleva tus habilidades de buceo al siguiente nivel. Practica navegación y flotabilidad, experimenta el buceo profundo y descubre nuevas especialidades para ampliar tu experiencia bajo el agua.",
+    price: 250,
+    categories: ["Advanced"],
   },
   {
-    title: "PADI® AWARE Specialty",
-    description: "Aprende cómo contribuir a la protección de los océanos mientras desarrollas conocimientos y habilidades para generar un impacto positivo en el medio marino.",
-    price: 110,
-    categories: ["Beginners", "Advanced"],
+    title: "PADI® Rescue Diver",
+    description: "Desarrolla habilidades para identificar y gestionar situaciones de emergencia en el buceo. Mejora tu confianza, capacidad de respuesta y preparación para ayudar a otros buceadores.",
+    price: 350,
+    categories: ["Advanced", "Professionals"],
   },
   {
     title: "Emergency First Response Primary and Secondary Care",
@@ -59,16 +53,16 @@ const courses: Course[] = [
     categories: ["Beginners", "Advanced"],
   },
   {
+    title: "PADI® Dive Master",
+    description: "Convierte tu pasión por el buceo en una profesión. Desarrolla tus habilidades y conocimientos para comenzar tu camino como profesional del buceo y convertirte en PADI Divemaster.",
+    price: 1000,
+    categories: ["Professionals"],
+  },
+  {
     title: "Peak Performance Buoyancy",
     description: "Mejora tu control de flotabilidad y aprende a moverte bajo el agua con mayor eficiencia. Una excelente habilidad para disfrutar de inmersiones más cómodas, consumir menos aire y mejorar tu experiencia como buceador.",
     price: 110,
     categories: ["Beginners", "Advanced"],
-  },
-  {
-    title: "Sidemount Rec Diver",
-    description: "Descubre el equilibrio y la eficiencia del buceo sidemount con la orientación de un instructor PADI. Una modalidad que ofrece comodidad y una nueva forma de disfrutar tus inmersiones.",
-    price: 200,
-    categories: ["Beginners", "Advanced", "Professionals"],
   },
   {
     title: "Enriched Air (Nitrox) Diver",
@@ -83,16 +77,22 @@ const courses: Course[] = [
     categories: ["Advanced"],
   },
   {
-    title: "PADI® Rescue Diver",
-    description: "Desarrolla habilidades para identificar y gestionar situaciones de emergencia en el buceo. Mejora tu confianza, capacidad de respuesta y preparación para ayudar a otros buceadores.",
-    price: 350,
-    categories: ["Advanced", "Professionals"],
-  },
-  {
     title: "Wreck Diver",
     description: "Descubre el fascinante mundo del buceo en pecios. Explora barcos, aviones y otras estructuras sumergidas que se han convertido en refugios para una increíble variedad de vida marina.",
     price: 200,
     categories: ["Advanced"],
+  },
+  {
+    title: "Sidemount Rec Diver",
+    description: "Descubre el equilibrio y la eficiencia del buceo sidemount con la orientación de un instructor PADI. Una modalidad que ofrece comodidad y una nueva forma de disfrutar tus inmersiones.",
+    price: 200,
+    categories: ["Beginners", "Advanced", "Professionals"],
+  },
+  {
+    title: "PADI® AWARE Specialty",
+    description: "Aprende cómo contribuir a la protección de los océanos mientras desarrollas conocimientos y habilidades para generar un impacto positivo en el medio marino.",
+    price: 110,
+    categories: ["Beginners", "Advanced"],
   },
 ];
 
